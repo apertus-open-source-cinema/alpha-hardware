@@ -10,7 +10,7 @@ for the apertus° Axiom Alpha camera prototype: http://axiom.apertus.org/index.p
 = Authors =
 ===========
 
-Stuart  Allman <bluesparq@hotmail.com>
+Stuart  Allman - contact through apertus° contact form: http://apertus.org/contact
 
 
 ========
