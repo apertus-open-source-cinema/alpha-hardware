@@ -19,6 +19,6 @@ Stuart  Allman - contact through apertus° contact form: http://apertus.org/cont
 
 -) power supply stuff and the power plane splits.
 -) double check the footprints (FMC connector seems correct, but the sensor socket should be checked)
--) turn off "snap to grid" feature and manually adjust the spacing on the LVDS pairs as per the schematic note. I usually do this by placing a silkscreen trace of the correct width and aligning the traces at the edge of the silkscreen.
--) Account for holes to mount PCB to lens mount (specs will follow soon)
+-) turn off "snap to grid" feature and manually adjust the spacing on the LVDS pairs as per the schematic note. 
+I usually do this by placing a silkscreen trace of the correct width and aligning the traces at the edge of the silkscreen.
 
