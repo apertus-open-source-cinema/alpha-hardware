@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="LensMount" color="3" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="10-30-07-237-400T4">
+<pad name="A2" x="-17.145" y="-14.605" drill="0.3"/>
+<pad name="A3" x="-15.875" y="-14.605" drill="0.3"/>
+<pad name="A4" x="-14.605" y="-14.605" drill="0.3"/>
+<pad name="A5" x="-13.335" y="-14.605" drill="0.3"/>
+<pad name="A6" x="-12.065" y="-14.605" drill="0.3"/>
+<pad name="A7" x="-10.795" y="-14.605" drill="0.3"/>
+<pad name="A8" x="-9.525" y="-14.605" drill="0.3"/>
+<pad name="A9" x="-8.255" y="-14.605" drill="0.3"/>
+<pad name="A10" x="-6.985" y="-14.605" drill="0.3"/>
+<pad name="A11" x="-5.715" y="-14.605" drill="0.3"/>
+<pad name="A12" x="-4.445" y="-14.605" drill="0.3"/>
+<pad name="A13" x="-3.175" y="-14.605" drill="0.3"/>
+<pad name="A14" x="-1.905" y="-14.605" drill="0.3"/>
+<pad name="A15" x="-0.635" y="-14.605" drill="0.3"/>
+<pad name="A16" x="0.635" y="-14.605" drill="0.3"/>
+<pad name="A17" x="1.905" y="-14.605" drill="0.3"/>
+<pad name="A18" x="3.175" y="-14.605" drill="0.3"/>
+<pad name="A19" x="4.445" y="-14.605" drill="0.3"/>
+<pad name="A20" x="5.715" y="-14.605" drill="0.3"/>
+<pad name="A21" x="6.985" y="-14.605" drill="0.3"/>
+<pad name="A22" x="8.255" y="-14.605" drill="0.3"/>
+<pad name="A23" x="9.525" y="-14.605" drill="0.3"/>
+<pad name="A24" x="10.795" y="-14.605" drill="0.3"/>
+<pad name="A25" x="12.065" y="-14.605" drill="0.3"/>
+<pad name="A26" x="13.335" y="-14.605" drill="0.3"/>
+<pad name="A27" x="14.605" y="-14.605" drill="0.3"/>
+<pad name="A28" x="15.875" y="-14.605" drill="0.3"/>
+<pad name="A29" x="17.145" y="-14.605" drill="0.3"/>
+<pad name="A30" x="18.415" y="-14.605" drill="0.3"/>
+<pad name="B1" x="-18.415" y="-13.335" drill="0.3"/>
+<pad name="B2" x="-17.145" y="-13.335" drill="0.3"/>
+<pad name="B3" x="-15.875" y="-13.335" drill="0.3"/>
+<pad name="B4" x="-14.605" y="-13.335" drill="0.3"/>
+<pad name="B5" x="-13.335" y="-13.335" drill="0.3"/>
+<pad name="B6" x="-12.065" y="-13.335" drill="0.3"/>
+<pad name="B7" x="-10.795" y="-13.335" drill="0.3"/>
+<pad name="B8" x="-9.525" y="-13.335" drill="0.3"/>
+<pad name="B9" x="-8.255" y="-13.335" drill="0.3"/>
+<pad name="B10" x="-6.985" y="-13.335" drill="0.3"/>
+<pad name="B11" x="-5.715" y="-13.335" drill="0.3"/>
+<pad name="B12" x="-4.445" y="-13.335" drill="0.3"/>
+<pad name="B13" x="-3.175" y="-13.335" drill="0.3"/>
+<pad name="B14" x="-1.905" y="-13.335" drill="0.3"/>
+<pad name="B15" x="-0.635" y="-13.335" drill="0.3"/>
+<pad name="B16" x="0.635" y="-13.335" drill="0.3"/>
+<pad name="B17" x="1.905" y="-13.335" drill="0.3"/>
+<pad name="B18" x="3.175" y="-13.335" drill="0.3"/>
+<pad name="B19" x="4.445" y="-13.335" drill="0.3"/>
+<pad name="B20" x="5.715" y="-13.335" drill="0.3"/>
+<pad name="B21" x="6.985" y="-13.335" drill="0.3"/>
+<pad name="B22" x="8.255" y="-13.335" drill="0.3"/>
+<pad name="B24" x="10.795" y="-13.335" drill="0.3"/>
+<pad name="B25" x="12.065" y="-13.335" drill="0.3"/>
+<pad name="B26" x="13.335" y="-13.335" drill="0.3"/>
+<pad name="B27" x="14.605" y="-13.335" drill="0.3"/>
+<pad name="B28" x="15.875" y="-13.335" drill="0.3"/>
+<pad name="B29" x="17.145" y="-13.335" drill="0.3"/>
+<pad name="B30" x="18.415" y="-13.335" drill="0.3"/>
+<pad name="C1" x="-18.415" y="-12.065" drill="0.3"/>
+<pad name="C2" x="-17.145" y="-12.065" drill="0.3"/>
+<pad name="C3" x="-15.875" y="-12.065" drill="0.3"/>
+<pad name="C4" x="-14.605" y="-12.065" drill="0.3"/>
+<pad name="C5" x="-13.335" y="-12.065" drill="0.3"/>
+<pad name="C6" x="-12.065" y="-12.065" drill="0.3"/>
+<pad name="C7" x="-10.795" y="-12.065" drill="0.3"/>
+<pad name="C8" x="-9.525" y="-12.065" drill="0.3"/>
+<pad name="C9" x="-8.255" y="-12.065" drill="0.3"/>
+<pad name="C10" x="-6.985" y="-12.065" drill="0.3"/>
+<pad name="C11" x="-5.715" y="-12.065" drill="0.3"/>
+<pad name="C12" x="-4.445" y="-12.065" drill="0.3"/>
+<pad name="C13" x="-3.175" y="-12.065" drill="0.3"/>
+<pad name="C14" x="-1.905" y="-12.065" drill="0.3"/>
+<pad name="C15" x="-0.635" y="-12.065" drill="0.3"/>
+<pad name="C16" x="0.635" y="-12.065" drill="0.3"/>
+<pad name="C17" x="1.905" y="-12.065" drill="0.3"/>
+<pad name="C18" x="3.175" y="-12.065" drill="0.3"/>
+<pad name="C19" x="4.445" y="-12.065" drill="0.3"/>
+<pad name="C20" x="5.715" y="-12.065" drill="0.3"/>
+<pad name="C21" x="6.985" y="-12.065" drill="0.3"/>
+<pad name="C22" x="8.255" y="-12.065" drill="0.3"/>
+<pad name="C24" x="10.795" y="-12.065" drill="0.3"/>
+<pad name="C25" x="12.065" y="-12.065" drill="0.3"/>
+<pad name="C26" x="13.335" y="-12.065" drill="0.3"/>
+<pad name="C27" x="14.605" y="-12.065" drill="0.3"/>
+<pad name="C28" x="15.875" y="-12.065" drill="0.3"/>
+<pad name="C29" x="17.145" y="-12.065" drill="0.3"/>
+<pad name="C30" x="18.415" y="-12.065" drill="0.3"/>
+<pad name="D1" x="-18.415" y="-10.795" drill="0.3"/>
+<pad name="D2" x="-17.145" y="-10.795" drill="0.3"/>
+<pad name="D3" x="-15.875" y="-10.795" drill="0.3"/>
+<pad name="D4" x="-14.605" y="-10.795" drill="0.3"/>
+<pad name="D5" x="-13.335" y="-10.795" drill="0.3"/>
+<pad name="D6" x="-12.065" y="-10.795" drill="0.3"/>
+<pad name="D7" x="-10.795" y="-10.795" drill="0.3"/>
+<pad name="D8" x="-9.525" y="-10.795" drill="0.3"/>
+<pad name="D9" x="-8.255" y="-10.795" drill="0.3"/>
+<pad name="D10" x="-6.985" y="-10.795" drill="0.3"/>
+<pad name="D11" x="-5.715" y="-10.795" drill="0.3"/>
+<pad name="D12" x="-4.445" y="-10.795" drill="0.3"/>
+<pad name="D13" x="-3.175" y="-10.795" drill="0.3"/>
+<pad name="D14" x="-1.905" y="-10.795" drill="0.3"/>
+<pad name="D15" x="-0.635" y="-10.795" drill="0.3"/>
+<pad name="D16" x="0.635" y="-10.795" drill="0.3"/>
+<pad name="D17" x="1.905" y="-10.795" drill="0.3"/>
+<pad name="D18" x="3.175" y="-10.795" drill="0.3"/>
+<pad name="D19" x="4.445" y="-10.795" drill="0.3"/>
+<pad name="D20" x="5.715" y="-10.795" drill="0.3"/>
+<pad name="D21" x="6.985" y="-10.795" drill="0.3"/>
+<pad name="D22" x="8.255" y="-10.795" drill="0.3"/>
+<pad name="D23" x="9.525" y="-10.795" drill="0.3"/>
+<pad name="D24" x="10.795" y="-10.795" drill="0.3"/>
+<pad name="D25" x="12.065" y="-10.795" drill="0.3"/>
+<pad name="D26" x="13.335" y="-10.795" drill="0.3"/>
+<pad name="D27" x="14.605" y="-10.795" drill="0.3"/>
+<pad name="D28" x="15.875" y="-10.795" drill="0.3"/>
+<pad name="D29" x="17.145" y="-10.795" drill="0.3"/>
+<pad name="D30" x="18.415" y="-10.795" drill="0.3"/>
+<pad name="E1" x="-18.415" y="10.795" drill="0.3"/>
+<pad name="E2" x="-17.145" y="10.795" drill="0.3"/>
+<pad name="E3" x="-15.875" y="10.795" drill="0.3"/>
+<pad name="E4" x="-14.605" y="10.795" drill="0.3"/>
+<pad name="E5" x="-13.335" y="10.795" drill="0.3"/>
+<pad name="E6" x="-12.065" y="10.795" drill="0.3"/>
+<pad name="E7" x="-10.795" y="10.795" drill="0.3"/>
+<pad name="E8" x="-9.525" y="10.795" drill="0.3"/>
+<pad name="E9" x="-8.255" y="10.795" drill="0.3"/>
+<pad name="E10" x="-6.985" y="10.795" drill="0.3"/>
+<pad name="E11" x="-5.715" y="10.795" drill="0.3"/>
+<pad name="E12" x="-4.445" y="10.795" drill="0.3"/>
+<pad name="E13" x="-3.175" y="10.795" drill="0.3"/>
+<pad name="E14" x="-1.905" y="10.795" drill="0.3"/>
+<pad name="E15" x="-0.635" y="10.795" drill="0.3"/>
+<pad name="E16" x="0.635" y="10.795" drill="0.3"/>
+<pad name="E17" x="1.905" y="10.795" drill="0.3"/>
+<pad name="E18" x="3.175" y="10.795" drill="0.3"/>
+<pad name="E19" x="4.445" y="10.795" drill="0.3"/>
+<pad name="E20" x="5.715" y="10.795" drill="0.3"/>
+<pad name="E21" x="6.985" y="10.795" drill="0.3"/>
+<pad name="E22" x="8.255" y="10.795" drill="0.3"/>
+<pad name="E23" x="9.525" y="10.795" drill="0.3"/>
+<pad name="E24" x="10.795" y="10.795" drill="0.3"/>
+<pad name="E25" x="12.065" y="10.795" drill="0.3"/>
+<pad name="E26" x="13.335" y="10.795" drill="0.3"/>
+<pad name="E27" x="14.605" y="10.795" drill="0.3"/>
+<pad name="E28" x="15.875" y="10.795" drill="0.3"/>
+<pad name="E29" x="17.145" y="10.795" drill="0.3"/>
+<pad name="E30" x="18.415" y="10.795" drill="0.3"/>
+<pad name="F1" x="-18.415" y="12.065" drill="0.3"/>
+<pad name="F2" x="-17.145" y="12.065" drill="0.3"/>
+<pad name="F3" x="-15.875" y="12.065" drill="0.3"/>
+<pad name="F4" x="-14.605" y="12.065" drill="0.3"/>
+<pad name="F5" x="-13.335" y="12.065" drill="0.3"/>
+<pad name="F6" x="-12.065" y="12.065" drill="0.3"/>
+<pad name="F7" x="-10.795" y="12.065" drill="0.3"/>
+<pad name="F8" x="-9.525" y="12.065" drill="0.3"/>
+<pad name="F9" x="-8.255" y="12.065" drill="0.3"/>
+<pad name="F10" x="-6.985" y="12.065" drill="0.3"/>
+<pad name="F11" x="-5.715" y="12.065" drill="0.3"/>
+<pad name="F12" x="-4.445" y="12.065" drill="0.3"/>
+<pad name="F13" x="-3.175" y="12.065" drill="0.3"/>
+<pad name="F14" x="-1.905" y="12.065" drill="0.3"/>
+<pad name="F15" x="-0.635" y="12.065" drill="0.3"/>
+<pad name="F16" x="0.635" y="12.065" drill="0.3"/>
+<pad name="F17" x="1.905" y="12.065" drill="0.3"/>
+<pad name="F18" x="3.175" y="12.065" drill="0.3"/>
+<pad name="F19" x="4.445" y="12.065" drill="0.3"/>
+<pad name="F20" x="5.715" y="12.065" drill="0.3"/>
+<pad name="F21" x="6.985" y="12.065" drill="0.3"/>
+<pad name="F22" x="8.255" y="12.065" drill="0.3"/>
+<pad name="F23" x="9.525" y="12.065" drill="0.3"/>
+<pad name="F24" x="10.795" y="12.065" drill="0.3"/>
+<pad name="F25" x="12.065" y="12.065" drill="0.3"/>
+<pad name="F26" x="13.335" y="12.065" drill="0.3"/>
+<pad name="F27" x="14.605" y="12.065" drill="0.3"/>
+<pad name="F28" x="15.875" y="12.065" drill="0.3"/>
+<pad name="F29" x="17.145" y="12.065" drill="0.3"/>
+<pad name="F30" x="18.415" y="12.065" drill="0.3"/>
+<pad name="G1" x="-18.415" y="13.335" drill="0.3"/>
+<pad name="G2" x="-17.145" y="13.335" drill="0.3"/>
+<pad name="G3" x="-15.875" y="13.335" drill="0.3"/>
+<pad name="G4" x="-14.605" y="13.335" drill="0.3"/>
+<pad name="G5" x="-13.335" y="13.335" drill="0.3"/>
+<pad name="G6" x="-12.065" y="13.335" drill="0.3"/>
+<pad name="G7" x="-10.795" y="13.335" drill="0.3"/>
+<pad name="G8" x="-9.525" y="13.335" drill="0.3"/>
+<pad name="G9" x="-8.255" y="13.335" drill="0.3"/>
+<pad name="G10" x="-6.985" y="13.335" drill="0.3"/>
+<pad name="G11" x="-5.715" y="13.335" drill="0.3"/>
+<pad name="G12" x="-4.445" y="13.335" drill="0.3"/>
+<pad name="G13" x="-3.175" y="13.335" drill="0.3"/>
+<pad name="G14" x="-1.905" y="13.335" drill="0.3"/>
+<pad name="G15" x="-0.635" y="13.335" drill="0.3"/>
+<pad name="G16" x="0.635" y="13.335" drill="0.3"/>
+<pad name="G17" x="1.905" y="13.335" drill="0.3"/>
+<pad name="G18" x="3.175" y="13.335" drill="0.3"/>
+<pad name="G19" x="4.445" y="13.335" drill="0.3"/>
+<pad name="G20" x="5.715" y="13.335" drill="0.3"/>
+<pad name="G21" x="6.985" y="13.335" drill="0.3"/>
+<pad name="G22" x="8.255" y="13.335" drill="0.3"/>
+<pad name="G23" x="9.525" y="13.335" drill="0.3"/>
+<pad name="G24" x="10.795" y="13.335" drill="0.3"/>
+<pad name="G25" x="12.065" y="13.335" drill="0.3"/>
+<pad name="G26" x="13.335" y="13.335" drill="0.3"/>
+<pad name="G27" x="14.605" y="13.335" drill="0.3"/>
+<pad name="G28" x="15.875" y="13.335" drill="0.3"/>
+<pad name="G29" x="17.145" y="13.335" drill="0.3"/>
+<pad name="G30" x="18.415" y="13.335" drill="0.3"/>
+<pad name="H1" x="-18.415" y="14.605" drill="0.3"/>
+<pad name="H2" x="-17.145" y="14.605" drill="0.3"/>
+<pad name="H3" x="-15.875" y="14.605" drill="0.3"/>
+<pad name="H4" x="-14.605" y="14.605" drill="0.3"/>
+<pad name="H5" x="-13.335" y="14.605" drill="0.3"/>
+<pad name="H6" x="-12.065" y="14.605" drill="0.3"/>
+<pad name="H7" x="-10.795" y="14.605" drill="0.3"/>
+<pad name="H8" x="-9.525" y="14.605" drill="0.3"/>
+<pad name="H9" x="-8.255" y="14.605" drill="0.3"/>
+<pad name="H10" x="-6.985" y="14.605" drill="0.3"/>
+<pad name="H11" x="-5.715" y="14.605" drill="0.3"/>
+<pad name="H12" x="-4.445" y="14.605" drill="0.3"/>
+<pad name="H13" x="-3.175" y="14.605" drill="0.3"/>
+<pad name="H14" x="-1.905" y="14.605" drill="0.3"/>
+<pad name="H15" x="-0.635" y="14.605" drill="0.3"/>
+<pad name="H16" x="0.635" y="14.605" drill="0.3"/>
+<pad name="H17" x="1.905" y="14.605" drill="0.3"/>
+<pad name="H18" x="3.175" y="14.605" drill="0.3"/>
+<pad name="H19" x="4.445" y="14.605" drill="0.3"/>
+<pad name="H20" x="5.715" y="14.605" drill="0.3"/>
+<pad name="H21" x="6.985" y="14.605" drill="0.3"/>
+<pad name="H22" x="8.255" y="14.605" drill="0.3"/>
+<pad name="H23" x="9.525" y="14.605" drill="0.3"/>
+<pad name="H24" x="10.795" y="14.605" drill="0.3"/>
+<pad name="H25" x="12.065" y="14.605" drill="0.3"/>
+<pad name="H26" x="13.335" y="14.605" drill="0.3"/>
+<pad name="H27" x="14.605" y="14.605" drill="0.3"/>
+<pad name="H28" x="15.875" y="14.605" drill="0.3"/>
+<pad name="H29" x="17.145" y="14.605" drill="0.3"/>
+<pad name="H30" x="18.415" y="14.605" drill="0.3"/>
+<wire x1="-19.685" y1="15.875" x2="19.685" y2="15.875" width="0.127" layer="21"/>
+<wire x1="19.685" y1="15.875" x2="19.685" y2="-15.875" width="0.127" layer="21"/>
+<wire x1="19.685" y1="-15.875" x2="-19.685" y2="-15.875" width="0.127" layer="21"/>
+<wire x1="-19.685" y1="-15.875" x2="-19.685" y2="15.875" width="0.127" layer="21"/>
+<wire x1="17.11540625" y1="-9.1567" x2="-17.090115625" y2="-9.1567" width="0.127" layer="21"/>
+<wire x1="-17.090115625" y1="-9.1567" x2="-18.0594" y2="-8.187415625" width="0.127" layer="21" curve="-90"/>
+<wire x1="-18.0594" y1="-8.187415625" x2="-18.0594" y2="8.187415625" width="0.127" layer="21"/>
+<wire x1="-18.0594" y1="8.187415625" x2="-17.090115625" y2="9.1567" width="0.127" layer="21" curve="-90"/>
+<wire x1="-17.090115625" y1="9.1567" x2="17.11540625" y2="9.1567" width="0.127" layer="21"/>
+<wire x1="17.11540625" y1="9.1567" x2="18.0594" y2="8.21270625" width="0.127" layer="21" curve="-90"/>
+<wire x1="18.0594" y1="8.21270625" x2="18.0594" y2="-8.21270625" width="0.127" layer="21"/>
+<wire x1="18.0594" y1="-8.21270625" x2="17.11540625" y2="-9.1567" width="0.127" layer="21" curve="-90"/>
+<hole x="-18.415" y="-14.605" drill="0.3"/>
+<wire x1="-23.5" y1="12.9" x2="-23.5" y2="16.4" width="0" layer="51"/>
+<wire x1="-23.5" y1="16.4" x2="-23" y2="16.9" width="0" layer="51"/>
+<wire x1="-23" y1="16.9" x2="23" y2="16.9" width="0" layer="51"/>
+<wire x1="23" y1="16.9" x2="23.5" y2="16.4" width="0" layer="51"/>
+<wire x1="23.5" y1="16.4" x2="23.5" y2="2.25" width="0" layer="51"/>
+<wire x1="23.5" y1="2.25" x2="23" y2="1.75" width="0" layer="51"/>
+<wire x1="23" y1="1.75" x2="21.5" y2="1.75" width="0" layer="51"/>
+<wire x1="21.5" y1="1.75" x2="21.5" y2="-1.75" width="0" layer="51" curve="180"/>
+<wire x1="21.5" y1="-1.75" x2="23" y2="-1.75" width="0" layer="51"/>
+<wire x1="23" y1="-1.75" x2="23.5" y2="-2.25" width="0" layer="51"/>
+<wire x1="23.5" y1="-2.25" x2="23.5" y2="-16.4" width="0" layer="51"/>
+<wire x1="23.5" y1="-16.4" x2="23" y2="-16.9" width="0" layer="51"/>
+<wire x1="23" y1="-16.9" x2="-23" y2="-16.9" width="0" layer="51"/>
+<wire x1="-23" y1="-16.9" x2="-23.5" y2="-16.4" width="0" layer="51"/>
+<wire x1="-23.5" y1="-16.4" x2="-23.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="-12.9" x2="-23.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="-8.9" x2="-23.5" y2="-2.25" width="0" layer="51"/>
+<wire x1="-23.5" y1="-2.25" x2="-23" y2="-1.75" width="0" layer="51"/>
+<wire x1="-23" y1="-1.75" x2="-21.5" y2="-1.75" width="0" layer="51"/>
+<wire x1="-21.5" y1="-1.75" x2="-21.5" y2="1.75" width="0" layer="51" curve="180"/>
+<wire x1="-21.5" y1="1.75" x2="-23" y2="1.75" width="0" layer="51"/>
+<wire x1="-23" y1="1.75" x2="-23.5" y2="2.25" width="0" layer="51"/>
+<wire x1="-23.5" y1="2.25" x2="-23.5" y2="8.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="8.9" x2="-23.5" y2="12.9" width="0" layer="51"/>
+<wire x1="13.1" y1="-13.15" x2="-13.1" y2="-13.15" width="0" layer="51"/>
+<wire x1="-13.1" y1="-13.15" x2="-13.6" y2="-12.65" width="0" layer="51" curve="-90"/>
+<wire x1="-13.6" y1="-12.65" x2="-13.6" y2="-11.9" width="0" layer="51"/>
+<wire x1="-13.6" y1="-11.9" x2="-13.6" y2="11.9" width="0" layer="51"/>
+<wire x1="-13.6" y1="11.9" x2="-13.6" y2="12.65" width="0" layer="51"/>
+<wire x1="-13.6" y1="12.65" x2="-13.1" y2="13.15" width="0" layer="51" curve="-90"/>
+<wire x1="-13.1" y1="13.15" x2="13.1" y2="13.15" width="0" layer="51"/>
+<wire x1="13.1" y1="13.15" x2="13.6" y2="12.65" width="0" layer="51" curve="-90"/>
+<wire x1="13.6" y1="12.65" x2="13.6" y2="11.9" width="0" layer="51"/>
+<wire x1="13.6" y1="11.9" x2="13.6" y2="-11.9" width="0" layer="51"/>
+<wire x1="13.6" y1="-11.9" x2="13.6" y2="-12.65" width="0" layer="51"/>
+<wire x1="13.6" y1="-12.65" x2="13.1" y2="-13.15" width="0" layer="51" curve="-90"/>
+<wire x1="-17.35" y1="16.51" x2="-17.35" y2="-16.51" width="0" layer="51" style="shortdash"/>
+<wire x1="17.35" y1="16.51" x2="17.35" y2="-16.51" width="0" layer="51" style="shortdash"/>
+<wire x1="13.85" y1="-13.9" x2="-13.85" y2="-13.9" width="0" layer="51"/>
+<wire x1="-13.85" y1="-13.9" x2="-14.35" y2="-13.4" width="0" layer="51" curve="-90"/>
+<wire x1="-14.35" y1="-13.4" x2="-14.35" y2="13.4" width="0" layer="51"/>
+<wire x1="-14.35" y1="13.4" x2="-13.85" y2="13.9" width="0" layer="51" curve="-90"/>
+<wire x1="-13.85" y1="13.9" x2="13.85" y2="13.9" width="0" layer="51"/>
+<wire x1="13.85" y1="13.9" x2="14.35" y2="13.4" width="0" layer="51" curve="-90"/>
+<wire x1="14.35" y1="13.4" x2="14.35" y2="-13.4" width="0" layer="51"/>
+<wire x1="14.35" y1="-13.4" x2="13.85" y2="-13.9" width="0" layer="51" curve="-90"/>
+<wire x1="-13.6" y1="11.9" x2="-13.1" y2="12.4" width="0" layer="51" curve="-90"/>
+<wire x1="-13.1" y1="12.4" x2="13.1" y2="12.4" width="0" layer="51"/>
+<wire x1="13.1" y1="12.4" x2="13.6" y2="11.9" width="0" layer="51" curve="-90"/>
+<wire x1="13.1" y1="-12.4" x2="-13.1" y2="-12.4" width="0" layer="51"/>
+<wire x1="-13.1" y1="-12.4" x2="-13.6" y2="-11.9" width="0" layer="51" curve="-90"/>
+<wire x1="13.6" y1="-11.9" x2="13.1" y2="-12.4" width="0" layer="51" curve="-90"/>
+<wire x1="-23.5" y1="12.9" x2="-19.5" y2="12.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="12.9" x2="-19.5" y2="8.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="8.9" x2="-23.5" y2="8.9" width="0" layer="51"/>
+<wire x1="23.5" y1="-12.9" x2="19.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="19.5" y1="-12.9" x2="19.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="19.5" y1="-8.9" x2="23.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="-8.9" x2="-19.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="-8.9" x2="-19.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="-12.9" x2="-23.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="23.5" y1="8.9" x2="19.5" y2="8.9" width="0" layer="51"/>
+<wire x1="19.5" y1="8.9" x2="19.5" y2="12.9" width="0" layer="51"/>
+<wire x1="19.5" y1="12.9" x2="23.5" y2="12.9" width="0" layer="51"/>
+<circle x="-21.5" y="-14.9" radius="0.5" width="0" layer="51"/>
+</package>
+<package name="CMV12000">
+<pad name="A2" x="-17.145" y="-14.605" drill="0.35"/>
+<pad name="A3" x="-15.875" y="-14.605" drill="0.35"/>
+<pad name="A4" x="-14.605" y="-14.605" drill="0.35"/>
+<pad name="A5" x="-13.335" y="-14.605" drill="0.35"/>
+<pad name="A6" x="-12.065" y="-14.605" drill="0.35"/>
+<pad name="A7" x="-10.795" y="-14.605" drill="0.35"/>
+<pad name="A8" x="-9.525" y="-14.605" drill="0.35"/>
+<pad name="A9" x="-8.255" y="-14.605" drill="0.35"/>
+<pad name="A10" x="-6.985" y="-14.605" drill="0.35"/>
+<pad name="A11" x="-5.715" y="-14.605" drill="0.35"/>
+<pad name="A12" x="-4.445" y="-14.605" drill="0.35"/>
+<pad name="A13" x="-3.175" y="-14.605" drill="0.35"/>
+<pad name="A14" x="-1.905" y="-14.605" drill="0.35"/>
+<pad name="A15" x="-0.635" y="-14.605" drill="0.35"/>
+<pad name="A16" x="0.635" y="-14.605" drill="0.35"/>
+<pad name="A17" x="1.905" y="-14.605" drill="0.35"/>
+<pad name="A18" x="3.175" y="-14.605" drill="0.35"/>
+<pad name="A19" x="4.445" y="-14.605" drill="0.35"/>
+<pad name="A20" x="5.715" y="-14.605" drill="0.35"/>
+<pad name="A21" x="6.985" y="-14.605" drill="0.35"/>
+<pad name="A22" x="8.255" y="-14.605" drill="0.35"/>
+<pad name="A23" x="9.525" y="-14.605" drill="0.35"/>
+<pad name="A24" x="10.795" y="-14.605" drill="0.35"/>
+<pad name="A25" x="12.065" y="-14.605" drill="0.35"/>
+<pad name="A26" x="13.335" y="-14.605" drill="0.35"/>
+<pad name="A27" x="14.605" y="-14.605" drill="0.35"/>
+<pad name="A28" x="15.875" y="-14.605" drill="0.35"/>
+<pad name="A29" x="17.145" y="-14.605" drill="0.35"/>
+<pad name="A30" x="18.415" y="-14.605" drill="0.35"/>
+<pad name="B1" x="-18.415" y="-13.335" drill="0.35"/>
+<pad name="B2" x="-17.145" y="-13.335" drill="0.35"/>
+<pad name="B3" x="-15.875" y="-13.335" drill="0.35"/>
+<pad name="B4" x="-14.605" y="-13.335" drill="0.35"/>
+<pad name="B5" x="-13.335" y="-13.335" drill="0.35"/>
+<pad name="B6" x="-12.065" y="-13.335" drill="0.35"/>
+<pad name="B7" x="-10.795" y="-13.335" drill="0.35"/>
+<pad name="B8" x="-9.525" y="-13.335" drill="0.35"/>
+<pad name="B9" x="-8.255" y="-13.335" drill="0.35"/>
+<pad name="B10" x="-6.985" y="-13.335" drill="0.35"/>
+<pad name="B11" x="-5.715" y="-13.335" drill="0.35"/>
+<pad name="B12" x="-4.445" y="-13.335" drill="0.35"/>
+<pad name="B13" x="-3.175" y="-13.335" drill="0.35"/>
+<pad name="B14" x="-1.905" y="-13.335" drill="0.35"/>
+<pad name="B15" x="-0.635" y="-13.335" drill="0.35"/>
+<pad name="B16" x="0.635" y="-13.335" drill="0.35"/>
+<pad name="B17" x="1.905" y="-13.335" drill="0.35"/>
+<pad name="B18" x="3.175" y="-13.335" drill="0.35"/>
+<pad name="B19" x="4.445" y="-13.335" drill="0.35"/>
+<pad name="B20" x="5.715" y="-13.335" drill="0.35"/>
+<pad name="B21" x="6.985" y="-13.335" drill="0.35"/>
+<pad name="B22" x="8.255" y="-13.335" drill="0.35"/>
+<pad name="B24" x="10.795" y="-13.335" drill="0.35"/>
+<pad name="B25" x="12.065" y="-13.335" drill="0.35"/>
+<pad name="B26" x="13.335" y="-13.335" drill="0.35"/>
+<pad name="B27" x="14.605" y="-13.335" drill="0.35"/>
+<pad name="B28" x="15.875" y="-13.335" drill="0.35"/>
+<pad name="B29" x="17.145" y="-13.335" drill="0.35"/>
+<pad name="B30" x="18.415" y="-13.335" drill="0.35"/>
+<pad name="C1" x="-18.415" y="-12.065" drill="0.35"/>
+<pad name="C2" x="-17.145" y="-12.065" drill="0.35"/>
+<pad name="C3" x="-15.875" y="-12.065" drill="0.35"/>
+<pad name="C4" x="-14.605" y="-12.065" drill="0.35"/>
+<pad name="C5" x="-13.335" y="-12.065" drill="0.35"/>
+<pad name="C6" x="-12.065" y="-12.065" drill="0.35"/>
+<pad name="C7" x="-10.795" y="-12.065" drill="0.35"/>
+<pad name="C8" x="-9.525" y="-12.065" drill="0.35"/>
+<pad name="C9" x="-8.255" y="-12.065" drill="0.35"/>
+<pad name="C10" x="-6.985" y="-12.065" drill="0.35"/>
+<pad name="C11" x="-5.715" y="-12.065" drill="0.35"/>
+<pad name="C12" x="-4.445" y="-12.065" drill="0.35"/>
+<pad name="C13" x="-3.175" y="-12.065" drill="0.35"/>
+<pad name="C14" x="-1.905" y="-12.065" drill="0.35"/>
+<pad name="C15" x="-0.635" y="-12.065" drill="0.35"/>
+<pad name="C16" x="0.635" y="-12.065" drill="0.35"/>
+<pad name="C17" x="1.905" y="-12.065" drill="0.35"/>
+<pad name="C18" x="3.175" y="-12.065" drill="0.35"/>
+<pad name="C19" x="4.445" y="-12.065" drill="0.35"/>
+<pad name="C20" x="5.715" y="-12.065" drill="0.35"/>
+<pad name="C21" x="6.985" y="-12.065" drill="0.35"/>
+<pad name="C22" x="8.255" y="-12.065" drill="0.35"/>
+<pad name="C24" x="10.795" y="-12.065" drill="0.35"/>
+<pad name="C25" x="12.065" y="-12.065" drill="0.35"/>
+<pad name="C26" x="13.335" y="-12.065" drill="0.35"/>
+<pad name="C27" x="14.605" y="-12.065" drill="0.35"/>
+<pad name="C28" x="15.875" y="-12.065" drill="0.35"/>
+<pad name="C29" x="17.145" y="-12.065" drill="0.35"/>
+<pad name="C30" x="18.415" y="-12.065" drill="0.35"/>
+<pad name="D1" x="-18.415" y="-10.795" drill="0.35"/>
+<pad name="D2" x="-17.145" y="-10.795" drill="0.35"/>
+<pad name="D3" x="-15.875" y="-10.795" drill="0.35"/>
+<pad name="D4" x="-14.605" y="-10.795" drill="0.35"/>
+<pad name="D5" x="-13.335" y="-10.795" drill="0.35"/>
+<pad name="D6" x="-12.065" y="-10.795" drill="0.35"/>
+<pad name="D7" x="-10.795" y="-10.795" drill="0.35"/>
+<pad name="D8" x="-9.525" y="-10.795" drill="0.35"/>
+<pad name="D9" x="-8.255" y="-10.795" drill="0.35"/>
+<pad name="D10" x="-6.985" y="-10.795" drill="0.35"/>
+<pad name="D11" x="-5.715" y="-10.795" drill="0.35"/>
+<pad name="D12" x="-4.445" y="-10.795" drill="0.35"/>
+<pad name="D13" x="-3.175" y="-10.795" drill="0.35"/>
+<pad name="D14" x="-1.905" y="-10.795" drill="0.35"/>
+<pad name="D15" x="-0.635" y="-10.795" drill="0.35"/>
+<pad name="D16" x="0.635" y="-10.795" drill="0.35"/>
+<pad name="D17" x="1.905" y="-10.795" drill="0.35"/>
+<pad name="D18" x="3.175" y="-10.795" drill="0.35"/>
+<pad name="D19" x="4.445" y="-10.795" drill="0.35"/>
+<pad name="D20" x="5.715" y="-10.795" drill="0.35"/>
+<pad name="D21" x="6.985" y="-10.795" drill="0.35"/>
+<pad name="D22" x="8.255" y="-10.795" drill="0.35"/>
+<pad name="D23" x="9.525" y="-10.795" drill="0.35"/>
+<pad name="D24" x="10.795" y="-10.795" drill="0.35"/>
+<pad name="D25" x="12.065" y="-10.795" drill="0.35"/>
+<pad name="D26" x="13.335" y="-10.795" drill="0.35"/>
+<pad name="D27" x="14.605" y="-10.795" drill="0.35"/>
+<pad name="D28" x="15.875" y="-10.795" drill="0.35"/>
+<pad name="D29" x="17.145" y="-10.795" drill="0.35"/>
+<pad name="D30" x="18.415" y="-10.795" drill="0.35"/>
+<pad name="E1" x="-18.415" y="10.795" drill="0.35"/>
+<pad name="E2" x="-17.145" y="10.795" drill="0.35"/>
+<pad name="E3" x="-15.875" y="10.795" drill="0.35"/>
+<pad name="E4" x="-14.605" y="10.795" drill="0.35"/>
+<pad name="E5" x="-13.335" y="10.795" drill="0.35"/>
+<pad name="E6" x="-12.065" y="10.795" drill="0.35"/>
+<pad name="E7" x="-10.795" y="10.795" drill="0.35"/>
+<pad name="E8" x="-9.525" y="10.795" drill="0.35"/>
+<pad name="E9" x="-8.255" y="10.795" drill="0.35"/>
+<pad name="E10" x="-6.985" y="10.795" drill="0.35"/>
+<pad name="E11" x="-5.715" y="10.795" drill="0.35"/>
+<pad name="E12" x="-4.445" y="10.795" drill="0.35"/>
+<pad name="E13" x="-3.175" y="10.795" drill="0.35"/>
+<pad name="E14" x="-1.905" y="10.795" drill="0.35"/>
+<pad name="E15" x="-0.635" y="10.795" drill="0.35"/>
+<pad name="E16" x="0.635" y="10.795" drill="0.35"/>
+<pad name="E17" x="1.905" y="10.795" drill="0.35"/>
+<pad name="E18" x="3.175" y="10.795" drill="0.35"/>
+<pad name="E19" x="4.445" y="10.795" drill="0.35"/>
+<pad name="E20" x="5.715" y="10.795" drill="0.35"/>
+<pad name="E21" x="6.985" y="10.795" drill="0.35"/>
+<pad name="E22" x="8.255" y="10.795" drill="0.35"/>
+<pad name="E23" x="9.525" y="10.795" drill="0.35"/>
+<pad name="E24" x="10.795" y="10.795" drill="0.35"/>
+<pad name="E25" x="12.065" y="10.795" drill="0.35"/>
+<pad name="E26" x="13.335" y="10.795" drill="0.35"/>
+<pad name="E27" x="14.605" y="10.795" drill="0.35"/>
+<pad name="E28" x="15.875" y="10.795" drill="0.35"/>
+<pad name="E29" x="17.145" y="10.795" drill="0.35"/>
+<pad name="E30" x="18.415" y="10.795" drill="0.35"/>
+<pad name="F1" x="-18.415" y="12.065" drill="0.35"/>
+<pad name="F2" x="-17.145" y="12.065" drill="0.35"/>
+<pad name="F3" x="-15.875" y="12.065" drill="0.35"/>
+<pad name="F4" x="-14.605" y="12.065" drill="0.35"/>
+<pad name="F5" x="-13.335" y="12.065" drill="0.35"/>
+<pad name="F6" x="-12.065" y="12.065" drill="0.35"/>
+<pad name="F7" x="-10.795" y="12.065" drill="0.35"/>
+<pad name="F8" x="-9.525" y="12.065" drill="0.35"/>
+<pad name="F9" x="-8.255" y="12.065" drill="0.35"/>
+<pad name="F10" x="-6.985" y="12.065" drill="0.35"/>
+<pad name="F11" x="-5.715" y="12.065" drill="0.35"/>
+<pad name="F12" x="-4.445" y="12.065" drill="0.35"/>
+<pad name="F13" x="-3.175" y="12.065" drill="0.35"/>
+<pad name="F14" x="-1.905" y="12.065" drill="0.35"/>
+<pad name="F15" x="-0.635" y="12.065" drill="0.35"/>
+<pad name="F16" x="0.635" y="12.065" drill="0.35"/>
+<pad name="F17" x="1.905" y="12.065" drill="0.35"/>
+<pad name="F18" x="3.175" y="12.065" drill="0.35"/>
+<pad name="F19" x="4.445" y="12.065" drill="0.35"/>
+<pad name="F20" x="5.715" y="12.065" drill="0.35"/>
+<pad name="F21" x="6.985" y="12.065" drill="0.35"/>
+<pad name="F22" x="8.255" y="12.065" drill="0.35"/>
+<pad name="F23" x="9.525" y="12.065" drill="0.35"/>
+<pad name="F24" x="10.795" y="12.065" drill="0.35"/>
+<pad name="F25" x="12.065" y="12.065" drill="0.35"/>
+<pad name="F26" x="13.335" y="12.065" drill="0.35"/>
+<pad name="F27" x="14.605" y="12.065" drill="0.35"/>
+<pad name="F28" x="15.875" y="12.065" drill="0.35"/>
+<pad name="F29" x="17.145" y="12.065" drill="0.35"/>
+<pad name="F30" x="18.415" y="12.065" drill="0.35"/>
+<pad name="G1" x="-18.415" y="13.335" drill="0.35"/>
+<pad name="G2" x="-17.145" y="13.335" drill="0.35"/>
+<pad name="G3" x="-15.875" y="13.335" drill="0.35"/>
+<pad name="G4" x="-14.605" y="13.335" drill="0.35"/>
+<pad name="G5" x="-13.335" y="13.335" drill="0.35"/>
+<pad name="G6" x="-12.065" y="13.335" drill="0.35"/>
+<pad name="G7" x="-10.795" y="13.335" drill="0.35"/>
+<pad name="G8" x="-9.525" y="13.335" drill="0.35"/>
+<pad name="G9" x="-8.255" y="13.335" drill="0.35"/>
+<pad name="G10" x="-6.985" y="13.335" drill="0.35"/>
+<pad name="G11" x="-5.715" y="13.335" drill="0.35"/>
+<pad name="G12" x="-4.445" y="13.335" drill="0.35"/>
+<pad name="G13" x="-3.175" y="13.335" drill="0.35"/>
+<pad name="G14" x="-1.905" y="13.335" drill="0.35"/>
+<pad name="G15" x="-0.635" y="13.335" drill="0.35"/>
+<pad name="G16" x="0.635" y="13.335" drill="0.35"/>
+<pad name="G17" x="1.905" y="13.335" drill="0.35"/>
+<pad name="G18" x="3.175" y="13.335" drill="0.35"/>
+<pad name="G19" x="4.445" y="13.335" drill="0.35"/>
+<pad name="G20" x="5.715" y="13.335" drill="0.35"/>
+<pad name="G21" x="6.985" y="13.335" drill="0.35"/>
+<pad name="G22" x="8.255" y="13.335" drill="0.35"/>
+<pad name="G23" x="9.525" y="13.335" drill="0.35"/>
+<pad name="G24" x="10.795" y="13.335" drill="0.35"/>
+<pad name="G25" x="12.065" y="13.335" drill="0.35"/>
+<pad name="G26" x="13.335" y="13.335" drill="0.35"/>
+<pad name="G27" x="14.605" y="13.335" drill="0.35"/>
+<pad name="G28" x="15.875" y="13.335" drill="0.35"/>
+<pad name="G29" x="17.145" y="13.335" drill="0.35"/>
+<pad name="G30" x="18.415" y="13.335" drill="0.35"/>
+<pad name="H1" x="-18.415" y="14.605" drill="0.35"/>
+<pad name="H2" x="-17.145" y="14.605" drill="0.35"/>
+<pad name="H3" x="-15.875" y="14.605" drill="0.35"/>
+<pad name="H4" x="-14.605" y="14.605" drill="0.35"/>
+<pad name="H5" x="-13.335" y="14.605" drill="0.35"/>
+<pad name="H6" x="-12.065" y="14.605" drill="0.35"/>
+<pad name="H7" x="-10.795" y="14.605" drill="0.35"/>
+<pad name="H8" x="-9.525" y="14.605" drill="0.35"/>
+<pad name="H9" x="-8.255" y="14.605" drill="0.35"/>
+<pad name="H10" x="-6.985" y="14.605" drill="0.35"/>
+<pad name="H11" x="-5.715" y="14.605" drill="0.35"/>
+<pad name="H12" x="-4.445" y="14.605" drill="0.35"/>
+<pad name="H13" x="-3.175" y="14.605" drill="0.35"/>
+<pad name="H14" x="-1.905" y="14.605" drill="0.35"/>
+<pad name="H15" x="-0.635" y="14.605" drill="0.35"/>
+<pad name="H16" x="0.635" y="14.605" drill="0.35"/>
+<pad name="H17" x="1.905" y="14.605" drill="0.35"/>
+<pad name="H18" x="3.175" y="14.605" drill="0.35"/>
+<pad name="H19" x="4.445" y="14.605" drill="0.35"/>
+<pad name="H20" x="5.715" y="14.605" drill="0.35"/>
+<pad name="H21" x="6.985" y="14.605" drill="0.35"/>
+<pad name="H22" x="8.255" y="14.605" drill="0.35"/>
+<pad name="H23" x="9.525" y="14.605" drill="0.35"/>
+<pad name="H24" x="10.795" y="14.605" drill="0.35"/>
+<pad name="H25" x="12.065" y="14.605" drill="0.35"/>
+<pad name="H26" x="13.335" y="14.605" drill="0.35"/>
+<pad name="H27" x="14.605" y="14.605" drill="0.35"/>
+<pad name="H28" x="15.875" y="14.605" drill="0.35"/>
+<pad name="H29" x="17.145" y="14.605" drill="0.35"/>
+<pad name="H30" x="18.415" y="14.605" drill="0.35"/>
+<wire x1="-23.5" y1="12.9" x2="-23.5" y2="16.4" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="16.4" x2="-23" y2="16.9" width="0.127" layer="21"/>
+<wire x1="-23" y1="16.9" x2="23" y2="16.9" width="0.127" layer="21"/>
+<wire x1="23" y1="16.9" x2="23.5" y2="16.4" width="0.127" layer="21"/>
+<wire x1="23.5" y1="16.4" x2="23.5" y2="2.25" width="0.127" layer="21"/>
+<wire x1="23.5" y1="2.25" x2="23" y2="1.75" width="0.127" layer="21"/>
+<wire x1="23" y1="1.75" x2="21.5" y2="1.75" width="0.127" layer="21"/>
+<wire x1="21.5" y1="1.75" x2="21.5" y2="-1.75" width="0.127" layer="21" curve="180"/>
+<wire x1="21.5" y1="-1.75" x2="23" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="23" y1="-1.75" x2="23.5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="23.5" y1="-2.25" x2="23.5" y2="-16.4" width="0.127" layer="21"/>
+<wire x1="23.5" y1="-16.4" x2="23" y2="-16.9" width="0.127" layer="21"/>
+<wire x1="23" y1="-16.9" x2="-23" y2="-16.9" width="0.127" layer="21"/>
+<wire x1="-23" y1="-16.9" x2="-23.5" y2="-16.4" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="-16.4" x2="-23.5" y2="-12.9" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="-12.9" x2="-23.5" y2="-8.9" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="-8.9" x2="-23.5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="-2.25" x2="-23" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-23" y1="-1.75" x2="-21.5" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-21.5" y1="-1.75" x2="-21.5" y2="1.75" width="0.127" layer="21" curve="180"/>
+<wire x1="-21.5" y1="1.75" x2="-23" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-23" y1="1.75" x2="-23.5" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="2.25" x2="-23.5" y2="8.9" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="8.9" x2="-23.5" y2="12.9" width="0.127" layer="21"/>
+<wire x1="13.1" y1="-13.15" x2="-13.1" y2="-13.15" width="0.127" layer="21"/>
+<wire x1="-13.1" y1="-13.15" x2="-13.6" y2="-12.65" width="0.127" layer="21" curve="-90"/>
+<wire x1="-13.6" y1="-12.65" x2="-13.6" y2="-11.9" width="0.127" layer="21"/>
+<wire x1="-13.6" y1="-11.9" x2="-13.6" y2="11.9" width="0.127" layer="21"/>
+<wire x1="-13.6" y1="11.9" x2="-13.6" y2="12.65" width="0.127" layer="21"/>
+<wire x1="-13.6" y1="12.65" x2="-13.1" y2="13.15" width="0.127" layer="21" curve="-90"/>
+<wire x1="-13.1" y1="13.15" x2="13.1" y2="13.15" width="0.127" layer="21"/>
+<wire x1="13.1" y1="13.15" x2="13.6" y2="12.65" width="0.127" layer="21" curve="-90"/>
+<wire x1="13.6" y1="12.65" x2="13.6" y2="11.9" width="0.127" layer="21"/>
+<wire x1="13.6" y1="11.9" x2="13.6" y2="-11.9" width="0.127" layer="21"/>
+<wire x1="13.6" y1="-11.9" x2="13.6" y2="-12.65" width="0.127" layer="21"/>
+<wire x1="13.6" y1="-12.65" x2="13.1" y2="-13.15" width="0.127" layer="21" curve="-90"/>
+<wire x1="-17.35" y1="16.51" x2="-17.35" y2="-16.51" width="0.127" layer="21" style="shortdash"/>
+<wire x1="17.35" y1="16.51" x2="17.35" y2="-16.51" width="0.127" layer="21" style="shortdash"/>
+<wire x1="13.85" y1="-13.9" x2="-13.85" y2="-13.9" width="0.127" layer="21"/>
+<wire x1="-13.85" y1="-13.9" x2="-14.35" y2="-13.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="-14.35" y1="-13.4" x2="-14.35" y2="13.4" width="0.127" layer="21"/>
+<wire x1="-14.35" y1="13.4" x2="-13.85" y2="13.9" width="0.127" layer="21" curve="-90"/>
+<wire x1="-13.85" y1="13.9" x2="13.85" y2="13.9" width="0.127" layer="21"/>
+<wire x1="13.85" y1="13.9" x2="14.35" y2="13.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="14.35" y1="13.4" x2="14.35" y2="-13.4" width="0.127" layer="21"/>
+<wire x1="14.35" y1="-13.4" x2="13.85" y2="-13.9" width="0.127" layer="21" curve="-90"/>
+<wire x1="-13.6" y1="11.9" x2="-13.1" y2="12.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="-13.1" y1="12.4" x2="13.1" y2="12.4" width="0.127" layer="21"/>
+<wire x1="13.1" y1="12.4" x2="13.6" y2="11.9" width="0.127" layer="21" curve="-90"/>
+<wire x1="13.1" y1="-12.4" x2="-13.1" y2="-12.4" width="0.127" layer="21"/>
+<wire x1="-13.1" y1="-12.4" x2="-13.6" y2="-11.9" width="0.127" layer="21" curve="-90"/>
+<wire x1="13.6" y1="-11.9" x2="13.1" y2="-12.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="-23.5" y1="12.9" x2="-19.5" y2="12.9" width="0.127" layer="21"/>
+<wire x1="-19.5" y1="12.9" x2="-19.5" y2="8.9" width="0.127" layer="21"/>
+<wire x1="-19.5" y1="8.9" x2="-23.5" y2="8.9" width="0.127" layer="21"/>
+<wire x1="23.5" y1="-12.9" x2="19.5" y2="-12.9" width="0.127" layer="21"/>
+<wire x1="19.5" y1="-12.9" x2="19.5" y2="-8.9" width="0.127" layer="21"/>
+<wire x1="19.5" y1="-8.9" x2="23.5" y2="-8.9" width="0.127" layer="21"/>
+<wire x1="-23.5" y1="-8.9" x2="-19.5" y2="-8.9" width="0.127" layer="21"/>
+<wire x1="-19.5" y1="-8.9" x2="-19.5" y2="-12.9" width="0.127" layer="21"/>
+<wire x1="-19.5" y1="-12.9" x2="-23.5" y2="-12.9" width="0.127" layer="21"/>
+<wire x1="23.5" y1="8.9" x2="19.5" y2="8.9" width="0.127" layer="21"/>
+<wire x1="19.5" y1="8.9" x2="19.5" y2="12.9" width="0.127" layer="21"/>
+<wire x1="19.5" y1="12.9" x2="23.5" y2="12.9" width="0.127" layer="21"/>
+<circle x="-21.5" y="-14.9" radius="0.5" width="0.127" layer="21"/>
+</package>
+<package name="10-30-07-237-400T4+LM">
+<pad name="A2" x="-17.145" y="-14.605" drill="0.3"/>
+<pad name="A3" x="-15.875" y="-14.605" drill="0.3"/>
+<pad name="A4" x="-14.605" y="-14.605" drill="0.3"/>
+<pad name="A5" x="-13.335" y="-14.605" drill="0.3"/>
+<pad name="A6" x="-12.065" y="-14.605" drill="0.3"/>
+<pad name="A7" x="-10.795" y="-14.605" drill="0.3"/>
+<pad name="A8" x="-9.525" y="-14.605" drill="0.3"/>
+<pad name="A9" x="-8.255" y="-14.605" drill="0.3"/>
+<pad name="A10" x="-6.985" y="-14.605" drill="0.3"/>
+<pad name="A11" x="-5.715" y="-14.605" drill="0.3"/>
+<pad name="A12" x="-4.445" y="-14.605" drill="0.3"/>
+<pad name="A13" x="-3.175" y="-14.605" drill="0.3"/>
+<pad name="A14" x="-1.905" y="-14.605" drill="0.3"/>
+<pad name="A15" x="-0.635" y="-14.605" drill="0.3"/>
+<pad name="A16" x="0.635" y="-14.605" drill="0.3"/>
+<pad name="A17" x="1.905" y="-14.605" drill="0.3"/>
+<pad name="A18" x="3.175" y="-14.605" drill="0.3"/>
+<pad name="A19" x="4.445" y="-14.605" drill="0.3"/>
+<pad name="A20" x="5.715" y="-14.605" drill="0.3"/>
+<pad name="A21" x="6.985" y="-14.605" drill="0.3"/>
+<pad name="A22" x="8.255" y="-14.605" drill="0.3"/>
+<pad name="A23" x="9.525" y="-14.605" drill="0.3"/>
+<pad name="A24" x="10.795" y="-14.605" drill="0.3"/>
+<pad name="A25" x="12.065" y="-14.605" drill="0.3"/>
+<pad name="A26" x="13.335" y="-14.605" drill="0.3"/>
+<pad name="A27" x="14.605" y="-14.605" drill="0.3"/>
+<pad name="A28" x="15.875" y="-14.605" drill="0.3"/>
+<pad name="A29" x="17.145" y="-14.605" drill="0.3"/>
+<pad name="A30" x="18.415" y="-14.605" drill="0.3"/>
+<pad name="B1" x="-18.415" y="-13.335" drill="0.3"/>
+<pad name="B2" x="-17.145" y="-13.335" drill="0.3"/>
+<pad name="B3" x="-15.875" y="-13.335" drill="0.3"/>
+<pad name="B4" x="-14.605" y="-13.335" drill="0.3"/>
+<pad name="B5" x="-13.335" y="-13.335" drill="0.3"/>
+<pad name="B6" x="-12.065" y="-13.335" drill="0.3"/>
+<pad name="B7" x="-10.795" y="-13.335" drill="0.3"/>
+<pad name="B8" x="-9.525" y="-13.335" drill="0.3"/>
+<pad name="B9" x="-8.255" y="-13.335" drill="0.3"/>
+<pad name="B10" x="-6.985" y="-13.335" drill="0.3"/>
+<pad name="B11" x="-5.715" y="-13.335" drill="0.3"/>
+<pad name="B12" x="-4.445" y="-13.335" drill="0.3"/>
+<pad name="B13" x="-3.175" y="-13.335" drill="0.3"/>
+<pad name="B14" x="-1.905" y="-13.335" drill="0.3"/>
+<pad name="B15" x="-0.635" y="-13.335" drill="0.3"/>
+<pad name="B16" x="0.635" y="-13.335" drill="0.3"/>
+<pad name="B17" x="1.905" y="-13.335" drill="0.3"/>
+<pad name="B18" x="3.175" y="-13.335" drill="0.3"/>
+<pad name="B19" x="4.445" y="-13.335" drill="0.3"/>
+<pad name="B20" x="5.715" y="-13.335" drill="0.3"/>
+<pad name="B21" x="6.985" y="-13.335" drill="0.3"/>
+<pad name="B22" x="8.255" y="-13.335" drill="0.3"/>
+<pad name="B24" x="10.795" y="-13.335" drill="0.3"/>
+<pad name="B25" x="12.065" y="-13.335" drill="0.3"/>
+<pad name="B26" x="13.335" y="-13.335" drill="0.3"/>
+<pad name="B27" x="14.605" y="-13.335" drill="0.3"/>
+<pad name="B28" x="15.875" y="-13.335" drill="0.3"/>
+<pad name="B29" x="17.145" y="-13.335" drill="0.3"/>
+<pad name="B30" x="18.415" y="-13.335" drill="0.3"/>
+<pad name="C1" x="-18.415" y="-12.065" drill="0.3"/>
+<pad name="C2" x="-17.145" y="-12.065" drill="0.3"/>
+<pad name="C3" x="-15.875" y="-12.065" drill="0.3"/>
+<pad name="C4" x="-14.605" y="-12.065" drill="0.3"/>
+<pad name="C5" x="-13.335" y="-12.065" drill="0.3"/>
+<pad name="C6" x="-12.065" y="-12.065" drill="0.3"/>
+<pad name="C7" x="-10.795" y="-12.065" drill="0.3"/>
+<pad name="C8" x="-9.525" y="-12.065" drill="0.3"/>
+<pad name="C9" x="-8.255" y="-12.065" drill="0.3"/>
+<pad name="C10" x="-6.985" y="-12.065" drill="0.3"/>
+<pad name="C11" x="-5.715" y="-12.065" drill="0.3"/>
+<pad name="C12" x="-4.445" y="-12.065" drill="0.3"/>
+<pad name="C13" x="-3.175" y="-12.065" drill="0.3"/>
+<pad name="C14" x="-1.905" y="-12.065" drill="0.3"/>
+<pad name="C15" x="-0.635" y="-12.065" drill="0.3"/>
+<pad name="C16" x="0.635" y="-12.065" drill="0.3"/>
+<pad name="C17" x="1.905" y="-12.065" drill="0.3"/>
+<pad name="C18" x="3.175" y="-12.065" drill="0.3"/>
+<pad name="C19" x="4.445" y="-12.065" drill="0.3"/>
+<pad name="C20" x="5.715" y="-12.065" drill="0.3"/>
+<pad name="C21" x="6.985" y="-12.065" drill="0.3"/>
+<pad name="C22" x="8.255" y="-12.065" drill="0.3"/>
+<pad name="C24" x="10.795" y="-12.065" drill="0.3"/>
+<pad name="C25" x="12.065" y="-12.065" drill="0.3"/>
+<pad name="C26" x="13.335" y="-12.065" drill="0.3"/>
+<pad name="C27" x="14.605" y="-12.065" drill="0.3"/>
+<pad name="C28" x="15.875" y="-12.065" drill="0.3"/>
+<pad name="C29" x="17.145" y="-12.065" drill="0.3"/>
+<pad name="C30" x="18.415" y="-12.065" drill="0.3"/>
+<pad name="D1" x="-18.415" y="-10.795" drill="0.3"/>
+<pad name="D2" x="-17.145" y="-10.795" drill="0.3"/>
+<pad name="D3" x="-15.875" y="-10.795" drill="0.3"/>
+<pad name="D4" x="-14.605" y="-10.795" drill="0.3"/>
+<pad name="D5" x="-13.335" y="-10.795" drill="0.3"/>
+<pad name="D6" x="-12.065" y="-10.795" drill="0.3"/>
+<pad name="D7" x="-10.795" y="-10.795" drill="0.3"/>
+<pad name="D8" x="-9.525" y="-10.795" drill="0.3"/>
+<pad name="D9" x="-8.255" y="-10.795" drill="0.3"/>
+<pad name="D10" x="-6.985" y="-10.795" drill="0.3"/>
+<pad name="D11" x="-5.715" y="-10.795" drill="0.3"/>
+<pad name="D12" x="-4.445" y="-10.795" drill="0.3"/>
+<pad name="D13" x="-3.175" y="-10.795" drill="0.3"/>
+<pad name="D14" x="-1.905" y="-10.795" drill="0.3"/>
+<pad name="D15" x="-0.635" y="-10.795" drill="0.3"/>
+<pad name="D16" x="0.635" y="-10.795" drill="0.3"/>
+<pad name="D17" x="1.905" y="-10.795" drill="0.3"/>
+<pad name="D18" x="3.175" y="-10.795" drill="0.3"/>
+<pad name="D19" x="4.445" y="-10.795" drill="0.3"/>
+<pad name="D20" x="5.715" y="-10.795" drill="0.3"/>
+<pad name="D21" x="6.985" y="-10.795" drill="0.3"/>
+<pad name="D22" x="8.255" y="-10.795" drill="0.3"/>
+<pad name="D23" x="9.525" y="-10.795" drill="0.3"/>
+<pad name="D24" x="10.795" y="-10.795" drill="0.3"/>
+<pad name="D25" x="12.065" y="-10.795" drill="0.3"/>
+<pad name="D26" x="13.335" y="-10.795" drill="0.3"/>
+<pad name="D27" x="14.605" y="-10.795" drill="0.3"/>
+<pad name="D28" x="15.875" y="-10.795" drill="0.3"/>
+<pad name="D29" x="17.145" y="-10.795" drill="0.3"/>
+<pad name="D30" x="18.415" y="-10.795" drill="0.3"/>
+<pad name="E1" x="-18.415" y="10.795" drill="0.3"/>
+<pad name="E2" x="-17.145" y="10.795" drill="0.3"/>
+<pad name="E3" x="-15.875" y="10.795" drill="0.3"/>
+<pad name="E4" x="-14.605" y="10.795" drill="0.3"/>
+<pad name="E5" x="-13.335" y="10.795" drill="0.3"/>
+<pad name="E6" x="-12.065" y="10.795" drill="0.3"/>
+<pad name="E7" x="-10.795" y="10.795" drill="0.3"/>
+<pad name="E8" x="-9.525" y="10.795" drill="0.3"/>
+<pad name="E9" x="-8.255" y="10.795" drill="0.3"/>
+<pad name="E10" x="-6.985" y="10.795" drill="0.3"/>
+<pad name="E11" x="-5.715" y="10.795" drill="0.3"/>
+<pad name="E12" x="-4.445" y="10.795" drill="0.3"/>
+<pad name="E13" x="-3.175" y="10.795" drill="0.3"/>
+<pad name="E14" x="-1.905" y="10.795" drill="0.3"/>
+<pad name="E15" x="-0.635" y="10.795" drill="0.3"/>
+<pad name="E16" x="0.635" y="10.795" drill="0.3"/>
+<pad name="E17" x="1.905" y="10.795" drill="0.3"/>
+<pad name="E18" x="3.175" y="10.795" drill="0.3"/>
+<pad name="E19" x="4.445" y="10.795" drill="0.3"/>
+<pad name="E20" x="5.715" y="10.795" drill="0.3"/>
+<pad name="E21" x="6.985" y="10.795" drill="0.3"/>
+<pad name="E22" x="8.255" y="10.795" drill="0.3"/>
+<pad name="E23" x="9.525" y="10.795" drill="0.3"/>
+<pad name="E24" x="10.795" y="10.795" drill="0.3"/>
+<pad name="E25" x="12.065" y="10.795" drill="0.3"/>
+<pad name="E26" x="13.335" y="10.795" drill="0.3"/>
+<pad name="E27" x="14.605" y="10.795" drill="0.3"/>
+<pad name="E28" x="15.875" y="10.795" drill="0.3"/>
+<pad name="E29" x="17.145" y="10.795" drill="0.3"/>
+<pad name="E30" x="18.415" y="10.795" drill="0.3"/>
+<pad name="F1" x="-18.415" y="12.065" drill="0.3"/>
+<pad name="F2" x="-17.145" y="12.065" drill="0.3"/>
+<pad name="F3" x="-15.875" y="12.065" drill="0.3"/>
+<pad name="F4" x="-14.605" y="12.065" drill="0.3"/>
+<pad name="F5" x="-13.335" y="12.065" drill="0.3"/>
+<pad name="F6" x="-12.065" y="12.065" drill="0.3"/>
+<pad name="F7" x="-10.795" y="12.065" drill="0.3"/>
+<pad name="F8" x="-9.525" y="12.065" drill="0.3"/>
+<pad name="F9" x="-8.255" y="12.065" drill="0.3"/>
+<pad name="F10" x="-6.985" y="12.065" drill="0.3"/>
+<pad name="F11" x="-5.715" y="12.065" drill="0.3"/>
+<pad name="F12" x="-4.445" y="12.065" drill="0.3"/>
+<pad name="F13" x="-3.175" y="12.065" drill="0.3"/>
+<pad name="F14" x="-1.905" y="12.065" drill="0.3"/>
+<pad name="F15" x="-0.635" y="12.065" drill="0.3"/>
+<pad name="F16" x="0.635" y="12.065" drill="0.3"/>
+<pad name="F17" x="1.905" y="12.065" drill="0.3"/>
+<pad name="F18" x="3.175" y="12.065" drill="0.3"/>
+<pad name="F19" x="4.445" y="12.065" drill="0.3"/>
+<pad name="F20" x="5.715" y="12.065" drill="0.3"/>
+<pad name="F21" x="6.985" y="12.065" drill="0.3"/>
+<pad name="F22" x="8.255" y="12.065" drill="0.3"/>
+<pad name="F23" x="9.525" y="12.065" drill="0.3"/>
+<pad name="F24" x="10.795" y="12.065" drill="0.3"/>
+<pad name="F25" x="12.065" y="12.065" drill="0.3"/>
+<pad name="F26" x="13.335" y="12.065" drill="0.3"/>
+<pad name="F27" x="14.605" y="12.065" drill="0.3"/>
+<pad name="F28" x="15.875" y="12.065" drill="0.3"/>
+<pad name="F29" x="17.145" y="12.065" drill="0.3"/>
+<pad name="F30" x="18.415" y="12.065" drill="0.3"/>
+<pad name="G1" x="-18.415" y="13.335" drill="0.3"/>
+<pad name="G2" x="-17.145" y="13.335" drill="0.3"/>
+<pad name="G3" x="-15.875" y="13.335" drill="0.3"/>
+<pad name="G4" x="-14.605" y="13.335" drill="0.3"/>
+<pad name="G5" x="-13.335" y="13.335" drill="0.3"/>
+<pad name="G6" x="-12.065" y="13.335" drill="0.3"/>
+<pad name="G7" x="-10.795" y="13.335" drill="0.3"/>
+<pad name="G8" x="-9.525" y="13.335" drill="0.3"/>
+<pad name="G9" x="-8.255" y="13.335" drill="0.3"/>
+<pad name="G10" x="-6.985" y="13.335" drill="0.3"/>
+<pad name="G11" x="-5.715" y="13.335" drill="0.3"/>
+<pad name="G12" x="-4.445" y="13.335" drill="0.3"/>
+<pad name="G13" x="-3.175" y="13.335" drill="0.3"/>
+<pad name="G14" x="-1.905" y="13.335" drill="0.3"/>
+<pad name="G15" x="-0.635" y="13.335" drill="0.3"/>
+<pad name="G16" x="0.635" y="13.335" drill="0.3"/>
+<pad name="G17" x="1.905" y="13.335" drill="0.3"/>
+<pad name="G18" x="3.175" y="13.335" drill="0.3"/>
+<pad name="G19" x="4.445" y="13.335" drill="0.3"/>
+<pad name="G20" x="5.715" y="13.335" drill="0.3"/>
+<pad name="G21" x="6.985" y="13.335" drill="0.3"/>
+<pad name="G22" x="8.255" y="13.335" drill="0.3"/>
+<pad name="G23" x="9.525" y="13.335" drill="0.3"/>
+<pad name="G24" x="10.795" y="13.335" drill="0.3"/>
+<pad name="G25" x="12.065" y="13.335" drill="0.3"/>
+<pad name="G26" x="13.335" y="13.335" drill="0.3"/>
+<pad name="G27" x="14.605" y="13.335" drill="0.3"/>
+<pad name="G28" x="15.875" y="13.335" drill="0.3"/>
+<pad name="G29" x="17.145" y="13.335" drill="0.3"/>
+<pad name="G30" x="18.415" y="13.335" drill="0.3"/>
+<pad name="H1" x="-18.415" y="14.605" drill="0.3"/>
+<pad name="H2" x="-17.145" y="14.605" drill="0.3"/>
+<pad name="H3" x="-15.875" y="14.605" drill="0.3"/>
+<pad name="H4" x="-14.605" y="14.605" drill="0.3"/>
+<pad name="H5" x="-13.335" y="14.605" drill="0.3"/>
+<pad name="H6" x="-12.065" y="14.605" drill="0.3"/>
+<pad name="H7" x="-10.795" y="14.605" drill="0.3"/>
+<pad name="H8" x="-9.525" y="14.605" drill="0.3"/>
+<pad name="H9" x="-8.255" y="14.605" drill="0.3"/>
+<pad name="H10" x="-6.985" y="14.605" drill="0.3"/>
+<pad name="H11" x="-5.715" y="14.605" drill="0.3"/>
+<pad name="H12" x="-4.445" y="14.605" drill="0.3"/>
+<pad name="H13" x="-3.175" y="14.605" drill="0.3"/>
+<pad name="H14" x="-1.905" y="14.605" drill="0.3"/>
+<pad name="H15" x="-0.635" y="14.605" drill="0.3"/>
+<pad name="H16" x="0.635" y="14.605" drill="0.3"/>
+<pad name="H17" x="1.905" y="14.605" drill="0.3"/>
+<pad name="H18" x="3.175" y="14.605" drill="0.3"/>
+<pad name="H19" x="4.445" y="14.605" drill="0.3"/>
+<pad name="H20" x="5.715" y="14.605" drill="0.3"/>
+<pad name="H21" x="6.985" y="14.605" drill="0.3"/>
+<pad name="H22" x="8.255" y="14.605" drill="0.3"/>
+<pad name="H23" x="9.525" y="14.605" drill="0.3"/>
+<pad name="H24" x="10.795" y="14.605" drill="0.3"/>
+<pad name="H25" x="12.065" y="14.605" drill="0.3"/>
+<pad name="H26" x="13.335" y="14.605" drill="0.3"/>
+<pad name="H27" x="14.605" y="14.605" drill="0.3"/>
+<pad name="H28" x="15.875" y="14.605" drill="0.3"/>
+<pad name="H29" x="17.145" y="14.605" drill="0.3"/>
+<pad name="H30" x="18.415" y="14.605" drill="0.3"/>
+<wire x1="-19.685" y1="15.875" x2="19.685" y2="15.875" width="0.127" layer="21"/>
+<wire x1="19.685" y1="15.875" x2="19.685" y2="-15.875" width="0.127" layer="21"/>
+<wire x1="19.685" y1="-15.875" x2="-19.685" y2="-15.875" width="0.127" layer="21"/>
+<wire x1="-19.685" y1="-15.875" x2="-19.685" y2="15.875" width="0.127" layer="21"/>
+<wire x1="17.11540625" y1="-9.1567" x2="-17.090115625" y2="-9.1567" width="0.127" layer="21"/>
+<wire x1="-17.090115625" y1="-9.1567" x2="-18.0594" y2="-8.187415625" width="0.127" layer="21" curve="-90"/>
+<wire x1="-18.0594" y1="-8.187415625" x2="-18.0594" y2="8.187415625" width="0.127" layer="21"/>
+<wire x1="-18.0594" y1="8.187415625" x2="-17.090115625" y2="9.1567" width="0.127" layer="21" curve="-90"/>
+<wire x1="-17.090115625" y1="9.1567" x2="17.11540625" y2="9.1567" width="0.127" layer="21"/>
+<wire x1="17.11540625" y1="9.1567" x2="18.0594" y2="8.21270625" width="0.127" layer="21" curve="-90"/>
+<wire x1="18.0594" y1="8.21270625" x2="18.0594" y2="-8.21270625" width="0.127" layer="21"/>
+<wire x1="18.0594" y1="-8.21270625" x2="17.11540625" y2="-9.1567" width="0.127" layer="21" curve="-90"/>
+<hole x="-18.415" y="-14.605" drill="0.3"/>
+<wire x1="-23.5" y1="12.9" x2="-23.5" y2="16.4" width="0" layer="51"/>
+<wire x1="-23.5" y1="16.4" x2="-23" y2="16.9" width="0" layer="51"/>
+<wire x1="-23" y1="16.9" x2="23" y2="16.9" width="0" layer="51"/>
+<wire x1="23" y1="16.9" x2="23.5" y2="16.4" width="0" layer="51"/>
+<wire x1="23.5" y1="16.4" x2="23.5" y2="2.25" width="0" layer="51"/>
+<wire x1="23.5" y1="2.25" x2="23" y2="1.75" width="0" layer="51"/>
+<wire x1="23" y1="1.75" x2="21.5" y2="1.75" width="0" layer="51"/>
+<wire x1="21.5" y1="1.75" x2="21.5" y2="-1.75" width="0" layer="51" curve="180"/>
+<wire x1="21.5" y1="-1.75" x2="23" y2="-1.75" width="0" layer="51"/>
+<wire x1="23" y1="-1.75" x2="23.5" y2="-2.25" width="0" layer="51"/>
+<wire x1="23.5" y1="-2.25" x2="23.5" y2="-16.4" width="0" layer="51"/>
+<wire x1="23.5" y1="-16.4" x2="23" y2="-16.9" width="0" layer="51"/>
+<wire x1="23" y1="-16.9" x2="-23" y2="-16.9" width="0" layer="51"/>
+<wire x1="-23" y1="-16.9" x2="-23.5" y2="-16.4" width="0" layer="51"/>
+<wire x1="-23.5" y1="-16.4" x2="-23.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="-12.9" x2="-23.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="-8.9" x2="-23.5" y2="-2.25" width="0" layer="51"/>
+<wire x1="-23.5" y1="-2.25" x2="-23" y2="-1.75" width="0" layer="51"/>
+<wire x1="-23" y1="-1.75" x2="-21.5" y2="-1.75" width="0" layer="51"/>
+<wire x1="-21.5" y1="-1.75" x2="-21.5" y2="1.75" width="0" layer="51" curve="180"/>
+<wire x1="-21.5" y1="1.75" x2="-23" y2="1.75" width="0" layer="51"/>
+<wire x1="-23" y1="1.75" x2="-23.5" y2="2.25" width="0" layer="51"/>
+<wire x1="-23.5" y1="2.25" x2="-23.5" y2="8.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="8.9" x2="-23.5" y2="12.9" width="0" layer="51"/>
+<wire x1="13.1" y1="-13.15" x2="-13.1" y2="-13.15" width="0" layer="51"/>
+<wire x1="-13.1" y1="-13.15" x2="-13.6" y2="-12.65" width="0" layer="51" curve="-90"/>
+<wire x1="-13.6" y1="-12.65" x2="-13.6" y2="-11.9" width="0" layer="51"/>
+<wire x1="-13.6" y1="-11.9" x2="-13.6" y2="11.9" width="0" layer="51"/>
+<wire x1="-13.6" y1="11.9" x2="-13.6" y2="12.65" width="0" layer="51"/>
+<wire x1="-13.6" y1="12.65" x2="-13.1" y2="13.15" width="0" layer="51" curve="-90"/>
+<wire x1="-13.1" y1="13.15" x2="13.1" y2="13.15" width="0" layer="51"/>
+<wire x1="13.1" y1="13.15" x2="13.6" y2="12.65" width="0" layer="51" curve="-90"/>
+<wire x1="13.6" y1="12.65" x2="13.6" y2="11.9" width="0" layer="51"/>
+<wire x1="13.6" y1="11.9" x2="13.6" y2="-11.9" width="0" layer="51"/>
+<wire x1="13.6" y1="-11.9" x2="13.6" y2="-12.65" width="0" layer="51"/>
+<wire x1="13.6" y1="-12.65" x2="13.1" y2="-13.15" width="0" layer="51" curve="-90"/>
+<wire x1="-17.35" y1="16.51" x2="-17.35" y2="-16.51" width="0" layer="51" style="shortdash"/>
+<wire x1="17.35" y1="16.51" x2="17.35" y2="-16.51" width="0" layer="51" style="shortdash"/>
+<wire x1="13.85" y1="-13.9" x2="-13.85" y2="-13.9" width="0" layer="51"/>
+<wire x1="-13.85" y1="-13.9" x2="-14.35" y2="-13.4" width="0" layer="51" curve="-90"/>
+<wire x1="-14.35" y1="-13.4" x2="-14.35" y2="13.4" width="0" layer="51"/>
+<wire x1="-14.35" y1="13.4" x2="-13.85" y2="13.9" width="0" layer="51" curve="-90"/>
+<wire x1="-13.85" y1="13.9" x2="13.85" y2="13.9" width="0" layer="51"/>
+<wire x1="13.85" y1="13.9" x2="14.35" y2="13.4" width="0" layer="51" curve="-90"/>
+<wire x1="14.35" y1="13.4" x2="14.35" y2="-13.4" width="0" layer="51"/>
+<wire x1="14.35" y1="-13.4" x2="13.85" y2="-13.9" width="0" layer="51" curve="-90"/>
+<wire x1="-13.6" y1="11.9" x2="-13.1" y2="12.4" width="0" layer="51" curve="-90"/>
+<wire x1="-13.1" y1="12.4" x2="13.1" y2="12.4" width="0" layer="51"/>
+<wire x1="13.1" y1="12.4" x2="13.6" y2="11.9" width="0" layer="51" curve="-90"/>
+<wire x1="13.1" y1="-12.4" x2="-13.1" y2="-12.4" width="0" layer="51"/>
+<wire x1="-13.1" y1="-12.4" x2="-13.6" y2="-11.9" width="0" layer="51" curve="-90"/>
+<wire x1="13.6" y1="-11.9" x2="13.1" y2="-12.4" width="0" layer="51" curve="-90"/>
+<wire x1="-23.5" y1="12.9" x2="-19.5" y2="12.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="12.9" x2="-19.5" y2="8.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="8.9" x2="-23.5" y2="8.9" width="0" layer="51"/>
+<wire x1="23.5" y1="-12.9" x2="19.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="19.5" y1="-12.9" x2="19.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="19.5" y1="-8.9" x2="23.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="-23.5" y1="-8.9" x2="-19.5" y2="-8.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="-8.9" x2="-19.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="-19.5" y1="-12.9" x2="-23.5" y2="-12.9" width="0" layer="51"/>
+<wire x1="23.5" y1="8.9" x2="19.5" y2="8.9" width="0" layer="51"/>
+<wire x1="19.5" y1="8.9" x2="19.5" y2="12.9" width="0" layer="51"/>
+<wire x1="19.5" y1="12.9" x2="23.5" y2="12.9" width="0" layer="51"/>
+<circle x="-21.5" y="-14.9" radius="0.5" width="0" layer="51"/>
+<wire x1="29" y1="17" x2="29" y2="-17" width="0.127" layer="100"/>
+<wire x1="29" y1="-17" x2="24" y2="-22" width="0.127" layer="100" curve="-90"/>
+<wire x1="24" y1="-22" x2="19" y2="-22" width="0.127" layer="100"/>
+<wire x1="19" y1="-22" x2="-19" y2="-22" width="0.127" layer="100" curve="-81"/>
+<wire x1="-19" y1="-22" x2="-24" y2="-22" width="0.127" layer="100"/>
+<wire x1="-24" y1="-22" x2="-29" y2="-17" width="0.127" layer="100" curve="-90"/>
+<wire x1="-29" y1="-17" x2="-29" y2="17" width="0.127" layer="100"/>
+<wire x1="-29" y1="17" x2="-24" y2="22" width="0.127" layer="100" curve="-90"/>
+<wire x1="-24" y1="22" x2="-19" y2="22" width="0.127" layer="100"/>
+<wire x1="-19" y1="22" x2="19" y2="22" width="0.127" layer="100" curve="-81"/>
+<wire x1="19" y1="22" x2="24" y2="22" width="0.127" layer="100"/>
+<wire x1="24" y1="22" x2="29" y2="17" width="0.127" layer="100" curve="-90"/>
+<wire x1="-23.5" y1="17.2" x2="-13.4" y2="17.2" width="0.127" layer="100"/>
+<wire x1="-13.4" y1="17.2" x2="23.5" y2="17.2" width="0.127" layer="100"/>
+<wire x1="23.5" y1="17.2" x2="23.5" y2="12.8" width="0.127" layer="100" curve="-180"/>
+<wire x1="23.5" y1="12.8" x2="20.125" y2="12.8" width="0.127" layer="100"/>
+<wire x1="20.125" y1="12.8" x2="19.625" y2="12.3" width="0.127" layer="100" curve="90"/>
+<wire x1="19.625" y1="12.3" x2="19.625" y2="9.55" width="0.127" layer="100"/>
+<wire x1="19.625" y1="9.55" x2="20.125" y2="9.05" width="0.127" layer="100" curve="90"/>
+<wire x1="20.125" y1="9.05" x2="23.5" y2="9.05" width="0.127" layer="100"/>
+<wire x1="23.5" y1="9.05" x2="25.4" y2="6.85" width="0.127" layer="100" curve="-90"/>
+<wire x1="25.4" y1="6.85" x2="25.4" y2="-6.85" width="0.127" layer="100"/>
+<wire x1="25.4" y1="-6.85" x2="23.5" y2="-9.05" width="0.127" layer="100" curve="-90"/>
+<wire x1="23.5" y1="-9.05" x2="20.125" y2="-9.05" width="0.127" layer="100"/>
+<wire x1="20.125" y1="-9.05" x2="19.625" y2="-9.55" width="0.127" layer="100" curve="90"/>
+<wire x1="19.625" y1="-9.55" x2="19.625" y2="-12.3" width="0.127" layer="100"/>
+<wire x1="19.625" y1="-12.3" x2="20.125" y2="-12.8" width="0.127" layer="100" curve="90"/>
+<wire x1="20.125" y1="-12.8" x2="23.5" y2="-12.8" width="0.127" layer="100"/>
+<wire x1="23.5" y1="-12.8" x2="23.5" y2="-17.2" width="0.127" layer="100" curve="-180"/>
+<wire x1="23.5" y1="-17.2" x2="-13.4" y2="-17.2" width="0.127" layer="100"/>
+<wire x1="-13.4" y1="-17.2" x2="-23.5" y2="-17.2" width="0.127" layer="100"/>
+<wire x1="-23.5" y1="-17.2" x2="-23.5" y2="-12.8" width="0.127" layer="100" curve="-180"/>
+<wire x1="-23.5" y1="-12.8" x2="-20.125" y2="-12.8" width="0.127" layer="100"/>
+<wire x1="-20.125" y1="-12.8" x2="-19.625" y2="-12.3" width="0.127" layer="100" curve="90"/>
+<wire x1="-19.625" y1="-12.3" x2="-19.625" y2="-9.55" width="0.127" layer="100"/>
+<wire x1="-19.625" y1="-9.55" x2="-20.125" y2="-9.05" width="0.127" layer="100" curve="90"/>
+<wire x1="-20.125" y1="-9.05" x2="-23.5" y2="-9.05" width="0.127" layer="100"/>
+<wire x1="-23.5" y1="-9.05" x2="-25.4" y2="-6.85" width="0.127" layer="100" curve="-90"/>
+<wire x1="-25.4" y1="-6.85" x2="-25.4" y2="6.85" width="0.127" layer="100"/>
+<wire x1="-25.4" y1="6.85" x2="-23.5" y2="9.05" width="0.127" layer="100" curve="-90"/>
+<wire x1="-23.5" y1="9.05" x2="-20.125" y2="9.05" width="0.127" layer="100"/>
+<wire x1="-20.125" y1="9.05" x2="-19.625" y2="9.55" width="0.127" layer="100" curve="90"/>
+<wire x1="-19.625" y1="9.55" x2="-19.625" y2="12.3" width="0.127" layer="100"/>
+<wire x1="-19.625" y1="12.3" x2="-20.125" y2="12.8" width="0.127" layer="100" curve="90"/>
+<wire x1="-20.125" y1="12.8" x2="-23.5" y2="12.8" width="0.127" layer="100"/>
+<wire x1="-23.5" y1="12.8" x2="-23.5" y2="17.2" width="0.127" layer="100" curve="-180"/>
+<wire x1="-13.4" y1="17.2" x2="-18.4" y2="12.2" width="0.127" layer="100" curve="90"/>
+<wire x1="-18.4" y1="12.2" x2="-18.4" y2="-12.2" width="0.127" layer="100"/>
+<wire x1="-18.4" y1="-12.2" x2="-13.4" y2="-17.2" width="0.127" layer="100" curve="90"/>
+<wire x1="13.4" y1="-17.2" x2="18.4" y2="-12.2" width="0.127" layer="100" curve="90"/>
+<wire x1="18.4" y1="-12.2" x2="18.4" y2="12.2" width="0.127" layer="100"/>
+<wire x1="18.4" y1="12.2" x2="13.4" y2="17.2" width="0.127" layer="100" curve="90"/>
+<circle x="21.5" y="0" radius="1" width="0.127" layer="100"/>
+<circle x="-21.68" y="0" radius="1" width="0.127" layer="100"/>
+<circle x="27.5" y="-12.5" radius="0.9" width="0.127" layer="100"/>
+<circle x="27.5" y="12.5" radius="0.9" width="0.127" layer="100"/>
+<circle x="-27.5" y="12.5" radius="0.9" width="0.127" layer="100"/>
+<circle x="-27.5" y="-12.5" radius="0.9" width="0.127" layer="100"/>
+<hole x="27.5" y="12.5" drill="3.2"/>
+<hole x="27.5" y="-12.5" drill="3.2"/>
+<hole x="-27.5" y="-12.5" drill="3.2"/>
+<hole x="-27.5" y="12.5" drill="3.2"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CMV12000">
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<pin name="CLK_IN" x="-20.32" y="0" length="middle" direction="in" function="clk"/>
+<pin name="SYS_RES_N" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="FRAME_REQ" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="T_EXP1" x="-20.32" y="-7.62" length="middle" direction="in"/>
+<pin name="T_EXP2" x="-20.32" y="-10.16" length="middle" direction="in"/>
+<pin name="SPI_EN" x="20.32" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SPI_CLK" x="20.32" y="-2.54" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="SPI_IN" x="20.32" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="SPI_OUT" x="20.32" y="-10.16" length="middle" direction="out" rot="R180"/>
+<text x="12.7" y="10.16" size="1.778" layer="94" rot="R180" align="center-left">CMV12000 Control</text>
+</symbol>
+<symbol name="CMV12000_TEST">
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<pin name="TDIG1" x="-20.32" y="7.62" length="middle" direction="out"/>
+<pin name="TDIG2" x="-20.32" y="5.08" length="middle" direction="out"/>
+<pin name="DIO1" x="20.32" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="VTREF" x="-10.16" y="-17.78" length="middle" rot="R90"/>
+<pin name="VTSIG" x="-5.08" y="-17.78" length="middle" rot="R90"/>
+<pin name="DIO2" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="DIO3" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="DIO4" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
+<text x="12.7" y="12.7" size="1.778" layer="94" rot="R180" align="center-left">CMV12000 Test</text>
+<pin name="TANA" x="20.32" y="-5.08" length="middle" direction="out" rot="R180"/>
+<text x="0" y="6.35" size="1.27" layer="94" rot="R180" align="center">do not
+connect</text>
+<text x="-7.62" y="0" size="1.27" layer="94" rot="R180" align="center">decouple
+with 100nF</text>
+</symbol>
+<symbol name="CMV12000_BIAS">
+<wire x1="-45.72" y1="15.24" x2="40.64" y2="15.24" width="0.254" layer="94"/>
+<wire x1="40.64" y1="15.24" x2="40.64" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-17.78" x2="-45.72" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-45.72" y1="-17.78" x2="-45.72" y2="15.24" width="0.254" layer="94"/>
+<text x="38.1" y="12.7" size="1.778" layer="94" align="top-right">CMV12000 Bias
+decouple with 100nF</text>
+<pin name="CMDP" x="-40.64" y="20.32" length="middle" rot="R270"/>
+<pin name="CMD_COL_LOAD" x="-35.56" y="20.32" length="middle" rot="R270"/>
+<pin name="CMD_RAMP" x="-30.48" y="20.32" length="middle" rot="R270"/>
+<pin name="CMD_COLAMP" x="-25.4" y="20.32" length="middle" rot="R270"/>
+<pin name="CMD_COL_PC" x="-20.32" y="20.32" length="middle" rot="R270"/>
+<pin name="CMDP_COMP_INV" x="-15.24" y="20.32" length="middle" rot="R270"/>
+<pin name="CMDP_COMP" x="-10.16" y="20.32" length="middle" rot="R270"/>
+<pin name="VCLAMP_ADC" x="-40.64" y="-22.86" length="middle" rot="R90"/>
+<pin name="CMDN" x="-35.56" y="-22.86" length="middle" rot="R90"/>
+<pin name="CMD_LVDS" x="-30.48" y="-22.86" length="middle" rot="R90"/>
+<pin name="VCLAMP" x="-25.4" y="-22.86" length="middle" rot="R90"/>
+<pin name="VBGAP" x="-20.32" y="-22.86" length="middle" rot="R90"/>
+<pin name="VPCH_H" x="-10.16" y="-22.86" length="middle" rot="R90"/>
+<pin name="VPCH_L" x="-5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="VREF_ADC" x="45.72" y="5.08" length="middle" rot="R180"/>
+<pin name="VREF" x="45.72" y="0" length="middle" rot="R180"/>
+<pin name="VRES_L" x="5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="VRAMP1" x="10.16" y="-22.86" length="middle" rot="R90"/>
+<pin name="VRAMP2" x="15.24" y="-22.86" length="middle" rot="R90"/>
+<pin name="VTF_LOW0" x="20.32" y="-22.86" length="middle" rot="R90"/>
+<pin name="VTF_LOW1" x="25.4" y="-22.86" length="middle" rot="R90"/>
+<pin name="VTF_LOW2" x="30.48" y="-22.86" length="middle" rot="R90"/>
+<pin name="VTF_LOW3" x="35.56" y="-22.86" length="middle" rot="R90"/>
+</symbol>
+<symbol name="CMV12000_POWER">
+<wire x1="-43.18" y1="20.32" x2="43.18" y2="20.32" width="0.254" layer="94"/>
+<wire x1="43.18" y1="20.32" x2="43.18" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-17.78" x2="-43.18" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="-17.78" x2="-43.18" y2="20.32" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" rot="R180" align="center">CMV12000 Power</text>
+<pin name="VDD18@A10" x="-38.1" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@A15" x="-35.56" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@A16" x="-33.02" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@A22" x="-30.48" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@A26" x="-27.94" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@A27" x="-25.4" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@B4" x="-22.86" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@H5" x="-20.32" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@H10" x="-17.78" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@H15" x="-15.24" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@H16" x="-12.7" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@H22" x="-10.16" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18@H26" x="-7.62" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD18_PLL" x="-5.08" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_PIX@A30" x="0" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_PIX@D28" x="2.54" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_PIX@D30" x="5.08" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_PIX@G1" x="7.62" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_PIX@H28" x="10.16" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD33@C26" x="15.24" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD33@C27" x="17.78" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD33@D3" x="20.32" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD33@D26" x="22.86" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD33@E26" x="25.4" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD33@F5" x="27.94" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD33@F26" x="30.48" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_RES@E2" x="35.56" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VDD_RES@G4" x="38.1" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@A9" x="-38.1" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@A21" x="-35.56" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@A25" x="-33.02" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@A28" x="-30.48" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@A29" x="-27.94" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@B5" x="-25.4" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@B22" x="-22.86" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@B26" x="-20.32" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@B27" x="-17.78" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@B28" x="-15.24" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@C15" x="-12.7" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@C16" x="-10.16" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@C28" x="-7.62" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@D2" x="-5.08" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@D25" x="-2.54" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@D27" x="0" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@D29" x="2.54" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@E3" x="7.62" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@E15" x="10.16" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@E16" x="12.7" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@E25" x="15.24" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@E27" x="17.78" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@F27" x="20.32" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@G5" x="22.86" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@H1" x="25.4" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@H6" x="27.94" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@H9" x="30.48" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@H21" x="33.02" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@H25" x="35.56" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@H27" x="38.1" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="CMV12000_LVDS_AD">
+<wire x1="-15.24" y1="68.58" x2="15.24" y2="68.58" width="0.254" layer="94"/>
+<wire x1="15.24" y1="68.58" x2="15.24" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-68.58" x2="-15.24" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-68.58" x2="-15.24" y2="68.58" width="0.254" layer="94"/>
+<pin name="OUT1_N" x="-20.32" y="63.5" length="middle" direction="out" function="dot"/>
+<pin name="OUT1_P" x="-20.32" y="60.96" length="middle" direction="out"/>
+<pin name="OUT2_N" x="20.32" y="63.5" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT2_P" x="20.32" y="60.96" length="middle" direction="out" rot="R180"/>
+<pin name="OUT3_N" x="-20.32" y="55.88" length="middle" direction="out" function="dot"/>
+<pin name="OUT3_P" x="-20.32" y="53.34" length="middle" direction="out"/>
+<pin name="OUT4_N" x="20.32" y="55.88" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT4_P" x="20.32" y="53.34" length="middle" direction="out" rot="R180"/>
+<pin name="OUT5_N" x="-20.32" y="48.26" length="middle" direction="out" function="dot"/>
+<pin name="OUT5_P" x="-20.32" y="45.72" length="middle" direction="out"/>
+<pin name="OUT6_P" x="20.32" y="45.72" length="middle" direction="out" rot="R180"/>
+<pin name="OUT6_N" x="20.32" y="48.26" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT7_P" x="-20.32" y="38.1" length="middle" direction="out"/>
+<pin name="OUT7_N" x="-20.32" y="40.64" length="middle" direction="out" function="dot"/>
+<pin name="OUT8_N" x="20.32" y="40.64" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT8_P" x="20.32" y="38.1" length="middle" direction="out" rot="R180"/>
+<pin name="OUT9_N" x="-20.32" y="30.48" length="middle" direction="out" function="dot"/>
+<pin name="OUT9_P" x="-20.32" y="27.94" length="middle" direction="out"/>
+<pin name="OUT10_N" x="20.32" y="30.48" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT10_P" x="20.32" y="27.94" length="middle" direction="out" rot="R180"/>
+<pin name="OUT11_N" x="-20.32" y="22.86" length="middle" direction="out" function="dot"/>
+<pin name="OUT11_P" x="-20.32" y="20.32" length="middle" direction="out"/>
+<pin name="OUT12_N" x="20.32" y="22.86" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT12_P" x="20.32" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="OUT13_N" x="-20.32" y="15.24" length="middle" direction="out" function="dot"/>
+<pin name="OUT13_P" x="-20.32" y="12.7" length="middle" direction="out"/>
+<pin name="OUT14_N" x="20.32" y="15.24" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT14_P" x="20.32" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="OUT15_N" x="-20.32" y="7.62" length="middle" direction="out" function="dot"/>
+<pin name="OUT15_P" x="-20.32" y="5.08" length="middle" direction="out"/>
+<pin name="OUT16_N" x="20.32" y="7.62" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT16_P" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="OUT17_N" x="-20.32" y="-5.08" length="middle" direction="out" function="dot"/>
+<pin name="OUT17_P" x="-20.32" y="-7.62" length="middle" direction="out"/>
+<pin name="OUT18_N" x="20.32" y="-5.08" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT18_P" x="20.32" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="OUT19_N" x="-20.32" y="-12.7" length="middle" direction="out" function="dot"/>
+<pin name="OUT19_P" x="-20.32" y="-15.24" length="middle" direction="out"/>
+<pin name="OUT20_N" x="20.32" y="-12.7" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT20_P" x="20.32" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="OUT21_N" x="-20.32" y="-20.32" length="middle" direction="out" function="dot"/>
+<pin name="OUT21_P" x="-20.32" y="-22.86" length="middle" direction="out"/>
+<pin name="OUT22_N" x="20.32" y="-20.32" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT22_P" x="20.32" y="-22.86" length="middle" direction="out" rot="R180"/>
+<pin name="OUT23_N" x="-20.32" y="-27.94" length="middle" direction="out" function="dot"/>
+<pin name="OUT23_P" x="-20.32" y="-30.48" length="middle" direction="out"/>
+<pin name="OUT24_N" x="20.32" y="-27.94" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT24_P" x="20.32" y="-30.48" length="middle" direction="out" rot="R180"/>
+<pin name="OUT25_N" x="-20.32" y="-38.1" length="middle" direction="out" function="dot"/>
+<pin name="OUT25_P" x="-20.32" y="-40.64" length="middle" direction="out"/>
+<pin name="OUT26_N" x="20.32" y="-38.1" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT26_P" x="20.32" y="-40.64" length="middle" direction="out" rot="R180"/>
+<pin name="OUT27_N" x="-20.32" y="-45.72" length="middle" direction="out" function="dot"/>
+<pin name="OUT27_P" x="-20.32" y="-48.26" length="middle" direction="out"/>
+<pin name="OUT28_N" x="20.32" y="-45.72" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT28_P" x="20.32" y="-48.26" length="middle" direction="out" rot="R180"/>
+<pin name="OUT29_N" x="-20.32" y="-53.34" length="middle" direction="out" function="dot"/>
+<pin name="OUT29_P" x="-20.32" y="-55.88" length="middle" direction="out"/>
+<pin name="OUT30_N" x="20.32" y="-53.34" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT30_P" x="20.32" y="-55.88" length="middle" direction="out" rot="R180"/>
+<pin name="OUT31_N" x="-20.32" y="-60.96" length="middle" direction="out" function="dot"/>
+<pin name="OUT31_P" x="-20.32" y="-63.5" length="middle" direction="out"/>
+<pin name="OUT32_N" x="20.32" y="-60.96" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT32_P" x="20.32" y="-63.5" length="middle" direction="out" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" rot="R180" align="center">CMV12000 LVDS A-D</text>
+</symbol>
+<symbol name="CMV12000_LVDS_EH">
+<wire x1="-15.24" y1="68.58" x2="15.24" y2="68.58" width="0.254" layer="94"/>
+<wire x1="15.24" y1="68.58" x2="15.24" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-68.58" x2="-15.24" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-68.58" x2="-15.24" y2="68.58" width="0.254" layer="94"/>
+<pin name="OUT33_N" x="-20.32" y="63.5" length="middle" direction="out" function="dot"/>
+<pin name="OUT33_P" x="-20.32" y="60.96" length="middle" direction="out"/>
+<pin name="OUT34_N" x="20.32" y="63.5" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT34_P" x="20.32" y="60.96" length="middle" direction="out" rot="R180"/>
+<pin name="OUT35_N" x="-20.32" y="55.88" length="middle" direction="out" function="dot"/>
+<pin name="OUT35_P" x="-20.32" y="53.34" length="middle" direction="out"/>
+<pin name="OUT36_N" x="20.32" y="55.88" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT36_P" x="20.32" y="53.34" length="middle" direction="out" rot="R180"/>
+<pin name="OUT37_N" x="-20.32" y="48.26" length="middle" direction="out" function="dot"/>
+<pin name="OUT37_P" x="-20.32" y="45.72" length="middle" direction="out"/>
+<pin name="OUT38_P" x="20.32" y="45.72" length="middle" direction="out" rot="R180"/>
+<pin name="OUT38_N" x="20.32" y="48.26" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT39_P" x="-20.32" y="38.1" length="middle" direction="out"/>
+<pin name="OUT39_N" x="-20.32" y="40.64" length="middle" direction="out" function="dot"/>
+<pin name="OUT40_N" x="20.32" y="40.64" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT40_P" x="20.32" y="38.1" length="middle" direction="out" rot="R180"/>
+<pin name="OUT41_N" x="-20.32" y="30.48" length="middle" direction="out" function="dot"/>
+<pin name="OUT41_P" x="-20.32" y="27.94" length="middle" direction="out"/>
+<pin name="OUT42_N" x="20.32" y="30.48" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT42_P" x="20.32" y="27.94" length="middle" direction="out" rot="R180"/>
+<pin name="OUT43_N" x="-20.32" y="22.86" length="middle" direction="out" function="dot"/>
+<pin name="OUT43_P" x="-20.32" y="20.32" length="middle" direction="out"/>
+<pin name="OUT44_N" x="20.32" y="22.86" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT44_P" x="20.32" y="20.32" length="middle" direction="out" rot="R180"/>
+<pin name="OUT45_N" x="-20.32" y="15.24" length="middle" direction="out" function="dot"/>
+<pin name="OUT45_P" x="-20.32" y="12.7" length="middle" direction="out"/>
+<pin name="OUT46_N" x="20.32" y="15.24" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT46_P" x="20.32" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="OUT47_N" x="-20.32" y="7.62" length="middle" direction="out" function="dot"/>
+<pin name="OUT47_P" x="-20.32" y="5.08" length="middle" direction="out"/>
+<pin name="OUT48_N" x="20.32" y="7.62" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT48_P" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="OUT49_N" x="-20.32" y="-5.08" length="middle" direction="out" function="dot"/>
+<pin name="OUT49_P" x="-20.32" y="-7.62" length="middle" direction="out"/>
+<pin name="OUT50_N" x="20.32" y="-5.08" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT50_P" x="20.32" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="OUT51_N" x="-20.32" y="-12.7" length="middle" direction="out" function="dot"/>
+<pin name="OUT51_P" x="-20.32" y="-15.24" length="middle" direction="out"/>
+<pin name="OUT52_N" x="20.32" y="-12.7" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT52_P" x="20.32" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="OUT53_N" x="-20.32" y="-20.32" length="middle" direction="out" function="dot"/>
+<pin name="OUT53_P" x="-20.32" y="-22.86" length="middle" direction="out"/>
+<pin name="OUT54_N" x="20.32" y="-20.32" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT54_P" x="20.32" y="-22.86" length="middle" direction="out" rot="R180"/>
+<pin name="OUT55_N" x="-20.32" y="-27.94" length="middle" direction="out" function="dot"/>
+<pin name="OUT55_P" x="-20.32" y="-30.48" length="middle" direction="out"/>
+<pin name="OUT56_N" x="20.32" y="-27.94" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT56_P" x="20.32" y="-30.48" length="middle" direction="out" rot="R180"/>
+<pin name="OUT57_N" x="-20.32" y="-38.1" length="middle" direction="out" function="dot"/>
+<pin name="OUT57_P" x="-20.32" y="-40.64" length="middle" direction="out"/>
+<pin name="OUT58_N" x="20.32" y="-38.1" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT58_P" x="20.32" y="-40.64" length="middle" direction="out" rot="R180"/>
+<pin name="OUT59_N" x="-20.32" y="-45.72" length="middle" direction="out" function="dot"/>
+<pin name="OUT59_P" x="-20.32" y="-48.26" length="middle" direction="out"/>
+<pin name="OUT60_N" x="20.32" y="-45.72" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT60_P" x="20.32" y="-48.26" length="middle" direction="out" rot="R180"/>
+<pin name="OUT61_N" x="-20.32" y="-53.34" length="middle" direction="out" function="dot"/>
+<pin name="OUT61_P" x="-20.32" y="-55.88" length="middle" direction="out"/>
+<pin name="OUT62_N" x="20.32" y="-53.34" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT62_P" x="20.32" y="-55.88" length="middle" direction="out" rot="R180"/>
+<pin name="OUT63_N" x="-20.32" y="-60.96" length="middle" direction="out" function="dot"/>
+<pin name="OUT63_P" x="-20.32" y="-63.5" length="middle" direction="out"/>
+<pin name="OUT64_N" x="20.32" y="-60.96" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUT64_P" x="20.32" y="-63.5" length="middle" direction="out" rot="R180"/>
+<text x="0" y="0" size="1.778" layer="94" rot="R180" align="center">CMV12000 LVDS E-H</text>
+</symbol>
+<symbol name="CMV12000_LVDS">
+<wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<pin name="LVDS_CLK_N" x="-20.32" y="5.08" length="middle" direction="in" function="dotclk"/>
+<pin name="LVDS_CLK_P" x="-20.32" y="2.54" length="middle" direction="in" function="clk"/>
+<pin name="OUTCLK_N" x="20.32" y="5.08" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUTCLK_P" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="OUTCTR_N" x="20.32" y="-2.54" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="OUTCTR_P" x="20.32" y="-5.08" length="middle" direction="out" rot="R180"/>
+<text x="-12.7" y="-10.16" size="1.778" layer="94" rot="R180" align="center-right">CMV12000 LVDS</text>
+</symbol>
+<symbol name="CMV12000_NC">
+<wire x1="-15.24" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<pin name="NC@C3" x="-20.32" y="-2.54" length="middle" direction="nc"/>
+<pin name="NC@H2" x="-20.32" y="-7.62" length="middle" direction="nc"/>
+<pin name="NC@F24" x="20.32" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@F25" x="20.32" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<text x="12.7" y="0" size="1.778" layer="94" rot="R180" align="center-left">CMV12000 NC</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CMV12000">
+<gates>
+<gate name="G$1" symbol="CMV12000" x="-33.02" y="48.26" addlevel="must"/>
+<gate name="G$2" symbol="CMV12000_BIAS" x="38.1" y="68.58" addlevel="must"/>
+<gate name="G$3" symbol="CMV12000_LVDS" x="66.04" y="116.84" addlevel="request"/>
+<gate name="G$4" symbol="CMV12000_LVDS_AD" x="116.84" y="58.42" addlevel="request"/>
+<gate name="G$5" symbol="CMV12000_LVDS_EH" x="167.64" y="58.42" addlevel="request"/>
+<gate name="G$6" symbol="CMV12000_NC" x="-33.02" y="124.46" addlevel="request"/>
+<gate name="G$7" symbol="CMV12000_POWER" x="-5.08" y="-2.54" addlevel="must"/>
+<gate name="G$8" symbol="CMV12000_TEST" x="-33.02" y="88.9" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="CMV12000">
+<connects>
+<connect gate="G$1" pin="CLK_IN" pad="E30"/>
+<connect gate="G$1" pin="FRAME_REQ" pad="G30"/>
+<connect gate="G$1" pin="SPI_CLK" pad="H29"/>
+<connect gate="G$1" pin="SPI_EN" pad="F28"/>
+<connect gate="G$1" pin="SPI_IN" pad="E28"/>
+<connect gate="G$1" pin="SPI_OUT" pad="G28"/>
+<connect gate="G$1" pin="SYS_RES_N" pad="F30"/>
+<connect gate="G$1" pin="T_EXP1" pad="H30"/>
+<connect gate="G$1" pin="T_EXP2" pad="E29"/>
+<connect gate="G$2" pin="CMDN" pad="F1"/>
+<connect gate="G$2" pin="CMDP" pad="F2"/>
+<connect gate="G$2" pin="CMDP_COMP" pad="H3"/>
+<connect gate="G$2" pin="CMDP_COMP_INV" pad="F3"/>
+<connect gate="G$2" pin="CMD_COLAMP" pad="C6"/>
+<connect gate="G$2" pin="CMD_COL_LOAD" pad="B1"/>
+<connect gate="G$2" pin="CMD_COL_PC" pad="D1"/>
+<connect gate="G$2" pin="CMD_LVDS" pad="C1"/>
+<connect gate="G$2" pin="CMD_RAMP" pad="B29"/>
+<connect gate="G$2" pin="VBGAP" pad="C29"/>
+<connect gate="G$2" pin="VCLAMP" pad="D4"/>
+<connect gate="G$2" pin="VCLAMP_ADC" pad="G2"/>
+<connect gate="G$2" pin="VPCH_H" pad="C4"/>
+<connect gate="G$2" pin="VPCH_L" pad="A4"/>
+<connect gate="G$2" pin="VRAMP1" pad="G29"/>
+<connect gate="G$2" pin="VRAMP2" pad="F29"/>
+<connect gate="G$2" pin="VREF" pad="A3"/>
+<connect gate="G$2" pin="VREF_ADC" pad="B3"/>
+<connect gate="G$2" pin="VRES_L" pad="D5"/>
+<connect gate="G$2" pin="VTF_LOW0" pad="C5"/>
+<connect gate="G$2" pin="VTF_LOW1" pad="D6"/>
+<connect gate="G$2" pin="VTF_LOW2" pad="B30"/>
+<connect gate="G$2" pin="VTF_LOW3" pad="C30"/>
+<connect gate="G$3" pin="LVDS_CLK_N" pad="E5"/>
+<connect gate="G$3" pin="LVDS_CLK_P" pad="E6"/>
+<connect gate="G$3" pin="OUTCLK_N" pad="G6"/>
+<connect gate="G$3" pin="OUTCLK_P" pad="G7"/>
+<connect gate="G$3" pin="OUTCTR_N" pad="A5"/>
+<connect gate="G$3" pin="OUTCTR_P" pad="A6"/>
+<connect gate="G$4" pin="OUT10_N" pad="D11"/>
+<connect gate="G$4" pin="OUT10_P" pad="D12"/>
+<connect gate="G$4" pin="OUT11_N" pad="C11"/>
+<connect gate="G$4" pin="OUT11_P" pad="C12"/>
+<connect gate="G$4" pin="OUT12_N" pad="B12"/>
+<connect gate="G$4" pin="OUT12_P" pad="B13"/>
+<connect gate="G$4" pin="OUT13_N" pad="A13"/>
+<connect gate="G$4" pin="OUT13_P" pad="A14"/>
+<connect gate="G$4" pin="OUT14_N" pad="C13"/>
+<connect gate="G$4" pin="OUT14_P" pad="C14"/>
+<connect gate="G$4" pin="OUT15_N" pad="D13"/>
+<connect gate="G$4" pin="OUT15_P" pad="D14"/>
+<connect gate="G$4" pin="OUT16_N" pad="B14"/>
+<connect gate="G$4" pin="OUT16_P" pad="B15"/>
+<connect gate="G$4" pin="OUT17_N" pad="D15"/>
+<connect gate="G$4" pin="OUT17_P" pad="D16"/>
+<connect gate="G$4" pin="OUT18_N" pad="B16"/>
+<connect gate="G$4" pin="OUT18_P" pad="B17"/>
+<connect gate="G$4" pin="OUT19_N" pad="A17"/>
+<connect gate="G$4" pin="OUT19_P" pad="A18"/>
+<connect gate="G$4" pin="OUT1_N" pad="B6"/>
+<connect gate="G$4" pin="OUT1_P" pad="B7"/>
+<connect gate="G$4" pin="OUT20_N" pad="D17"/>
+<connect gate="G$4" pin="OUT20_P" pad="D18"/>
+<connect gate="G$4" pin="OUT21_N" pad="C17"/>
+<connect gate="G$4" pin="OUT21_P" pad="C18"/>
+<connect gate="G$4" pin="OUT22_N" pad="B18"/>
+<connect gate="G$4" pin="OUT22_P" pad="B19"/>
+<connect gate="G$4" pin="OUT23_N" pad="A19"/>
+<connect gate="G$4" pin="OUT23_P" pad="A20"/>
+<connect gate="G$4" pin="OUT24_N" pad="D19"/>
+<connect gate="G$4" pin="OUT24_P" pad="D20"/>
+<connect gate="G$4" pin="OUT25_N" pad="C19"/>
+<connect gate="G$4" pin="OUT25_P" pad="C20"/>
+<connect gate="G$4" pin="OUT26_N" pad="B20"/>
+<connect gate="G$4" pin="OUT26_P" pad="B21"/>
+<connect gate="G$4" pin="OUT27_N" pad="D21"/>
+<connect gate="G$4" pin="OUT27_P" pad="D22"/>
+<connect gate="G$4" pin="OUT28_N" pad="C21"/>
+<connect gate="G$4" pin="OUT28_P" pad="C22"/>
+<connect gate="G$4" pin="OUT29_N" pad="A23"/>
+<connect gate="G$4" pin="OUT29_P" pad="A24"/>
+<connect gate="G$4" pin="OUT2_N" pad="A7"/>
+<connect gate="G$4" pin="OUT2_P" pad="A8"/>
+<connect gate="G$4" pin="OUT30_N" pad="D23"/>
+<connect gate="G$4" pin="OUT30_P" pad="D24"/>
+<connect gate="G$4" pin="OUT31_N" pad="B24"/>
+<connect gate="G$4" pin="OUT31_P" pad="B25"/>
+<connect gate="G$4" pin="OUT32_N" pad="C24"/>
+<connect gate="G$4" pin="OUT32_P" pad="C25"/>
+<connect gate="G$4" pin="OUT3_N" pad="D7"/>
+<connect gate="G$4" pin="OUT3_P" pad="D8"/>
+<connect gate="G$4" pin="OUT4_N" pad="C7"/>
+<connect gate="G$4" pin="OUT4_P" pad="C8"/>
+<connect gate="G$4" pin="OUT5_N" pad="B8"/>
+<connect gate="G$4" pin="OUT5_P" pad="B9"/>
+<connect gate="G$4" pin="OUT6_N" pad="D9"/>
+<connect gate="G$4" pin="OUT6_P" pad="D10"/>
+<connect gate="G$4" pin="OUT7_N" pad="C9"/>
+<connect gate="G$4" pin="OUT7_P" pad="C10"/>
+<connect gate="G$4" pin="OUT8_N" pad="B10"/>
+<connect gate="G$4" pin="OUT8_P" pad="B11"/>
+<connect gate="G$4" pin="OUT9_N" pad="A11"/>
+<connect gate="G$4" pin="OUT9_P" pad="A12"/>
+<connect gate="G$5" pin="OUT33_N" pad="F6"/>
+<connect gate="G$5" pin="OUT33_P" pad="F7"/>
+<connect gate="G$5" pin="OUT34_N" pad="H7"/>
+<connect gate="G$5" pin="OUT34_P" pad="H8"/>
+<connect gate="G$5" pin="OUT35_N" pad="E7"/>
+<connect gate="G$5" pin="OUT35_P" pad="E8"/>
+<connect gate="G$5" pin="OUT36_N" pad="G8"/>
+<connect gate="G$5" pin="OUT36_P" pad="G9"/>
+<connect gate="G$5" pin="OUT37_N" pad="F8"/>
+<connect gate="G$5" pin="OUT37_P" pad="F9"/>
+<connect gate="G$5" pin="OUT38_N" pad="E9"/>
+<connect gate="G$5" pin="OUT38_P" pad="E10"/>
+<connect gate="G$5" pin="OUT39_N" pad="G10"/>
+<connect gate="G$5" pin="OUT39_P" pad="G11"/>
+<connect gate="G$5" pin="OUT40_N" pad="F10"/>
+<connect gate="G$5" pin="OUT40_P" pad="F11"/>
+<connect gate="G$5" pin="OUT41_N" pad="H11"/>
+<connect gate="G$5" pin="OUT41_P" pad="H12"/>
+<connect gate="G$5" pin="OUT42_N" pad="E11"/>
+<connect gate="G$5" pin="OUT42_P" pad="E12"/>
+<connect gate="G$5" pin="OUT43_N" pad="G12"/>
+<connect gate="G$5" pin="OUT43_P" pad="G13"/>
+<connect gate="G$5" pin="OUT44_N" pad="F12"/>
+<connect gate="G$5" pin="OUT44_P" pad="F13"/>
+<connect gate="G$5" pin="OUT45_N" pad="H13"/>
+<connect gate="G$5" pin="OUT45_P" pad="H14"/>
+<connect gate="G$5" pin="OUT46_N" pad="E13"/>
+<connect gate="G$5" pin="OUT46_P" pad="E14"/>
+<connect gate="G$5" pin="OUT47_N" pad="G14"/>
+<connect gate="G$5" pin="OUT47_P" pad="G15"/>
+<connect gate="G$5" pin="OUT48_N" pad="F14"/>
+<connect gate="G$5" pin="OUT48_P" pad="F15"/>
+<connect gate="G$5" pin="OUT49_N" pad="F16"/>
+<connect gate="G$5" pin="OUT49_P" pad="F17"/>
+<connect gate="G$5" pin="OUT50_N" pad="G16"/>
+<connect gate="G$5" pin="OUT50_P" pad="G17"/>
+<connect gate="G$5" pin="OUT51_N" pad="E17"/>
+<connect gate="G$5" pin="OUT51_P" pad="E18"/>
+<connect gate="G$5" pin="OUT52_N" pad="H17"/>
+<connect gate="G$5" pin="OUT52_P" pad="H18"/>
+<connect gate="G$5" pin="OUT53_N" pad="F18"/>
+<connect gate="G$5" pin="OUT53_P" pad="F19"/>
+<connect gate="G$5" pin="OUT54_N" pad="G18"/>
+<connect gate="G$5" pin="OUT54_P" pad="G19"/>
+<connect gate="G$5" pin="OUT55_N" pad="E19"/>
+<connect gate="G$5" pin="OUT55_P" pad="E20"/>
+<connect gate="G$5" pin="OUT56_N" pad="H19"/>
+<connect gate="G$5" pin="OUT56_P" pad="H20"/>
+<connect gate="G$5" pin="OUT57_N" pad="F20"/>
+<connect gate="G$5" pin="OUT57_P" pad="F21"/>
+<connect gate="G$5" pin="OUT58_N" pad="G20"/>
+<connect gate="G$5" pin="OUT58_P" pad="G21"/>
+<connect gate="G$5" pin="OUT59_N" pad="E21"/>
+<connect gate="G$5" pin="OUT59_P" pad="E22"/>
+<connect gate="G$5" pin="OUT60_N" pad="F22"/>
+<connect gate="G$5" pin="OUT60_P" pad="F23"/>
+<connect gate="G$5" pin="OUT61_N" pad="G22"/>
+<connect gate="G$5" pin="OUT61_P" pad="G23"/>
+<connect gate="G$5" pin="OUT62_N" pad="E23"/>
+<connect gate="G$5" pin="OUT62_P" pad="E24"/>
+<connect gate="G$5" pin="OUT63_N" pad="H23"/>
+<connect gate="G$5" pin="OUT63_P" pad="H24"/>
+<connect gate="G$5" pin="OUT64_N" pad="G24"/>
+<connect gate="G$5" pin="OUT64_P" pad="G25"/>
+<connect gate="G$6" pin="NC@C3" pad="C3"/>
+<connect gate="G$6" pin="NC@F24" pad="F24"/>
+<connect gate="G$6" pin="NC@F25" pad="F25"/>
+<connect gate="G$6" pin="NC@H2" pad="H2"/>
+<connect gate="G$7" pin="GND@A21" pad="A21"/>
+<connect gate="G$7" pin="GND@A25" pad="A25"/>
+<connect gate="G$7" pin="GND@A28" pad="A28"/>
+<connect gate="G$7" pin="GND@A29" pad="A29"/>
+<connect gate="G$7" pin="GND@A9" pad="A9"/>
+<connect gate="G$7" pin="GND@B22" pad="B22"/>
+<connect gate="G$7" pin="GND@B26" pad="B26"/>
+<connect gate="G$7" pin="GND@B27" pad="B27"/>
+<connect gate="G$7" pin="GND@B28" pad="B28"/>
+<connect gate="G$7" pin="GND@B5" pad="B5"/>
+<connect gate="G$7" pin="GND@C15" pad="C15"/>
+<connect gate="G$7" pin="GND@C16" pad="C16"/>
+<connect gate="G$7" pin="GND@C28" pad="C28"/>
+<connect gate="G$7" pin="GND@D2" pad="D2"/>
+<connect gate="G$7" pin="GND@D25" pad="D25"/>
+<connect gate="G$7" pin="GND@D27" pad="D27"/>
+<connect gate="G$7" pin="GND@D29" pad="D29"/>
+<connect gate="G$7" pin="GND@E15" pad="E15"/>
+<connect gate="G$7" pin="GND@E16" pad="E16"/>
+<connect gate="G$7" pin="GND@E25" pad="E25"/>
+<connect gate="G$7" pin="GND@E27" pad="E27"/>
+<connect gate="G$7" pin="GND@E3" pad="E3"/>
+<connect gate="G$7" pin="GND@F27" pad="F27"/>
+<connect gate="G$7" pin="GND@G5" pad="G5"/>
+<connect gate="G$7" pin="GND@H1" pad="H1"/>
+<connect gate="G$7" pin="GND@H21" pad="H21"/>
+<connect gate="G$7" pin="GND@H25" pad="H25"/>
+<connect gate="G$7" pin="GND@H27" pad="H27"/>
+<connect gate="G$7" pin="GND@H6" pad="H6"/>
+<connect gate="G$7" pin="GND@H9" pad="H9"/>
+<connect gate="G$7" pin="VDD18@A10" pad="A10"/>
+<connect gate="G$7" pin="VDD18@A15" pad="A15"/>
+<connect gate="G$7" pin="VDD18@A16" pad="A16"/>
+<connect gate="G$7" pin="VDD18@A22" pad="A22"/>
+<connect gate="G$7" pin="VDD18@A26" pad="A26"/>
+<connect gate="G$7" pin="VDD18@A27" pad="A27"/>
+<connect gate="G$7" pin="VDD18@B4" pad="B4"/>
+<connect gate="G$7" pin="VDD18@H10" pad="H10"/>
+<connect gate="G$7" pin="VDD18@H15" pad="H15"/>
+<connect gate="G$7" pin="VDD18@H16" pad="H16"/>
+<connect gate="G$7" pin="VDD18@H22" pad="H22"/>
+<connect gate="G$7" pin="VDD18@H26" pad="H26"/>
+<connect gate="G$7" pin="VDD18@H5" pad="H5"/>
+<connect gate="G$7" pin="VDD18_PLL" pad="E1"/>
+<connect gate="G$7" pin="VDD33@C26" pad="C26"/>
+<connect gate="G$7" pin="VDD33@C27" pad="C27"/>
+<connect gate="G$7" pin="VDD33@D26" pad="D26"/>
+<connect gate="G$7" pin="VDD33@D3" pad="D3"/>
+<connect gate="G$7" pin="VDD33@E26" pad="E26"/>
+<connect gate="G$7" pin="VDD33@F26" pad="F26"/>
+<connect gate="G$7" pin="VDD33@F5" pad="F5"/>
+<connect gate="G$7" pin="VDD_PIX@A30" pad="A30"/>
+<connect gate="G$7" pin="VDD_PIX@D28" pad="D28"/>
+<connect gate="G$7" pin="VDD_PIX@D30" pad="D30"/>
+<connect gate="G$7" pin="VDD_PIX@G1" pad="G1"/>
+<connect gate="G$7" pin="VDD_PIX@H28" pad="H28"/>
+<connect gate="G$7" pin="VDD_RES@E2" pad="E2"/>
+<connect gate="G$7" pin="VDD_RES@G4" pad="G4"/>
+<connect gate="G$8" pin="DIO1" pad="F4"/>
+<connect gate="G$8" pin="DIO2" pad="E4"/>
+<connect gate="G$8" pin="DIO3" pad="H4"/>
+<connect gate="G$8" pin="DIO4" pad="G3"/>
+<connect gate="G$8" pin="TANA" pad="A2"/>
+<connect gate="G$8" pin="TDIG1" pad="G27"/>
+<connect gate="G$8" pin="TDIG2" pad="G26"/>
+<connect gate="G$8" pin="VTREF" pad="B2"/>
+<connect gate="G$8" pin="VTSIG" pad="C2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ANDON" package="10-30-07-237-400T4">
+<connects>
+<connect gate="G$1" pin="CLK_IN" pad="E30"/>
+<connect gate="G$1" pin="FRAME_REQ" pad="G30"/>
+<connect gate="G$1" pin="SPI_CLK" pad="H29"/>
+<connect gate="G$1" pin="SPI_EN" pad="F28"/>
+<connect gate="G$1" pin="SPI_IN" pad="E28"/>
+<connect gate="G$1" pin="SPI_OUT" pad="G28"/>
+<connect gate="G$1" pin="SYS_RES_N" pad="F30"/>
+<connect gate="G$1" pin="T_EXP1" pad="H30"/>
+<connect gate="G$1" pin="T_EXP2" pad="E29"/>
+<connect gate="G$2" pin="CMDN" pad="F1"/>
+<connect gate="G$2" pin="CMDP" pad="F2"/>
+<connect gate="G$2" pin="CMDP_COMP" pad="H3"/>
+<connect gate="G$2" pin="CMDP_COMP_INV" pad="F3"/>
+<connect gate="G$2" pin="CMD_COLAMP" pad="C6"/>
+<connect gate="G$2" pin="CMD_COL_LOAD" pad="B1"/>
+<connect gate="G$2" pin="CMD_COL_PC" pad="D1"/>
+<connect gate="G$2" pin="CMD_LVDS" pad="C1"/>
+<connect gate="G$2" pin="CMD_RAMP" pad="B29"/>
+<connect gate="G$2" pin="VBGAP" pad="C29"/>
+<connect gate="G$2" pin="VCLAMP" pad="D4"/>
+<connect gate="G$2" pin="VCLAMP_ADC" pad="G2"/>
+<connect gate="G$2" pin="VPCH_H" pad="C4"/>
+<connect gate="G$2" pin="VPCH_L" pad="A4"/>
+<connect gate="G$2" pin="VRAMP1" pad="G29"/>
+<connect gate="G$2" pin="VRAMP2" pad="F29"/>
+<connect gate="G$2" pin="VREF" pad="A3"/>
+<connect gate="G$2" pin="VREF_ADC" pad="B3"/>
+<connect gate="G$2" pin="VRES_L" pad="D5"/>
+<connect gate="G$2" pin="VTF_LOW0" pad="C5"/>
+<connect gate="G$2" pin="VTF_LOW1" pad="D6"/>
+<connect gate="G$2" pin="VTF_LOW2" pad="B30"/>
+<connect gate="G$2" pin="VTF_LOW3" pad="C30"/>
+<connect gate="G$3" pin="LVDS_CLK_N" pad="E5"/>
+<connect gate="G$3" pin="LVDS_CLK_P" pad="E6"/>
+<connect gate="G$3" pin="OUTCLK_N" pad="G6"/>
+<connect gate="G$3" pin="OUTCLK_P" pad="G7"/>
+<connect gate="G$3" pin="OUTCTR_N" pad="A5"/>
+<connect gate="G$3" pin="OUTCTR_P" pad="A6"/>
+<connect gate="G$4" pin="OUT10_N" pad="D11"/>
+<connect gate="G$4" pin="OUT10_P" pad="D12"/>
+<connect gate="G$4" pin="OUT11_N" pad="C11"/>
+<connect gate="G$4" pin="OUT11_P" pad="C12"/>
+<connect gate="G$4" pin="OUT12_N" pad="B12"/>
+<connect gate="G$4" pin="OUT12_P" pad="B13"/>
+<connect gate="G$4" pin="OUT13_N" pad="A13"/>
+<connect gate="G$4" pin="OUT13_P" pad="A14"/>
+<connect gate="G$4" pin="OUT14_N" pad="C13"/>
+<connect gate="G$4" pin="OUT14_P" pad="C14"/>
+<connect gate="G$4" pin="OUT15_N" pad="D13"/>
+<connect gate="G$4" pin="OUT15_P" pad="D14"/>
+<connect gate="G$4" pin="OUT16_N" pad="B14"/>
+<connect gate="G$4" pin="OUT16_P" pad="B15"/>
+<connect gate="G$4" pin="OUT17_N" pad="D15"/>
+<connect gate="G$4" pin="OUT17_P" pad="D16"/>
+<connect gate="G$4" pin="OUT18_N" pad="B16"/>
+<connect gate="G$4" pin="OUT18_P" pad="B17"/>
+<connect gate="G$4" pin="OUT19_N" pad="A17"/>
+<connect gate="G$4" pin="OUT19_P" pad="A18"/>
+<connect gate="G$4" pin="OUT1_N" pad="B6"/>
+<connect gate="G$4" pin="OUT1_P" pad="B7"/>
+<connect gate="G$4" pin="OUT20_N" pad="D17"/>
+<connect gate="G$4" pin="OUT20_P" pad="D18"/>
+<connect gate="G$4" pin="OUT21_N" pad="C17"/>
+<connect gate="G$4" pin="OUT21_P" pad="C18"/>
+<connect gate="G$4" pin="OUT22_N" pad="B18"/>
+<connect gate="G$4" pin="OUT22_P" pad="B19"/>
+<connect gate="G$4" pin="OUT23_N" pad="A19"/>
+<connect gate="G$4" pin="OUT23_P" pad="A20"/>
+<connect gate="G$4" pin="OUT24_N" pad="D19"/>
+<connect gate="G$4" pin="OUT24_P" pad="D20"/>
+<connect gate="G$4" pin="OUT25_N" pad="C19"/>
+<connect gate="G$4" pin="OUT25_P" pad="C20"/>
+<connect gate="G$4" pin="OUT26_N" pad="B20"/>
+<connect gate="G$4" pin="OUT26_P" pad="B21"/>
+<connect gate="G$4" pin="OUT27_N" pad="D21"/>
+<connect gate="G$4" pin="OUT27_P" pad="D22"/>
+<connect gate="G$4" pin="OUT28_N" pad="C21"/>
+<connect gate="G$4" pin="OUT28_P" pad="C22"/>
+<connect gate="G$4" pin="OUT29_N" pad="A23"/>
+<connect gate="G$4" pin="OUT29_P" pad="A24"/>
+<connect gate="G$4" pin="OUT2_N" pad="A7"/>
+<connect gate="G$4" pin="OUT2_P" pad="A8"/>
+<connect gate="G$4" pin="OUT30_N" pad="D23"/>
+<connect gate="G$4" pin="OUT30_P" pad="D24"/>
+<connect gate="G$4" pin="OUT31_N" pad="B24"/>
+<connect gate="G$4" pin="OUT31_P" pad="B25"/>
+<connect gate="G$4" pin="OUT32_N" pad="C24"/>
+<connect gate="G$4" pin="OUT32_P" pad="C25"/>
+<connect gate="G$4" pin="OUT3_N" pad="D7"/>
+<connect gate="G$4" pin="OUT3_P" pad="D8"/>
+<connect gate="G$4" pin="OUT4_N" pad="C7"/>
+<connect gate="G$4" pin="OUT4_P" pad="C8"/>
+<connect gate="G$4" pin="OUT5_N" pad="B8"/>
+<connect gate="G$4" pin="OUT5_P" pad="B9"/>
+<connect gate="G$4" pin="OUT6_N" pad="D9"/>
+<connect gate="G$4" pin="OUT6_P" pad="D10"/>
+<connect gate="G$4" pin="OUT7_N" pad="C9"/>
+<connect gate="G$4" pin="OUT7_P" pad="C10"/>
+<connect gate="G$4" pin="OUT8_N" pad="B10"/>
+<connect gate="G$4" pin="OUT8_P" pad="B11"/>
+<connect gate="G$4" pin="OUT9_N" pad="A11"/>
+<connect gate="G$4" pin="OUT9_P" pad="A12"/>
+<connect gate="G$5" pin="OUT33_N" pad="F6"/>
+<connect gate="G$5" pin="OUT33_P" pad="F7"/>
+<connect gate="G$5" pin="OUT34_N" pad="H7"/>
+<connect gate="G$5" pin="OUT34_P" pad="H8"/>
+<connect gate="G$5" pin="OUT35_N" pad="E7"/>
+<connect gate="G$5" pin="OUT35_P" pad="E8"/>
+<connect gate="G$5" pin="OUT36_N" pad="G8"/>
+<connect gate="G$5" pin="OUT36_P" pad="G9"/>
+<connect gate="G$5" pin="OUT37_N" pad="F8"/>
+<connect gate="G$5" pin="OUT37_P" pad="F9"/>
+<connect gate="G$5" pin="OUT38_N" pad="E9"/>
+<connect gate="G$5" pin="OUT38_P" pad="E10"/>
+<connect gate="G$5" pin="OUT39_N" pad="G10"/>
+<connect gate="G$5" pin="OUT39_P" pad="G11"/>
+<connect gate="G$5" pin="OUT40_N" pad="F10"/>
+<connect gate="G$5" pin="OUT40_P" pad="F11"/>
+<connect gate="G$5" pin="OUT41_N" pad="H11"/>
+<connect gate="G$5" pin="OUT41_P" pad="H12"/>
+<connect gate="G$5" pin="OUT42_N" pad="E11"/>
+<connect gate="G$5" pin="OUT42_P" pad="E12"/>
+<connect gate="G$5" pin="OUT43_N" pad="G12"/>
+<connect gate="G$5" pin="OUT43_P" pad="G13"/>
+<connect gate="G$5" pin="OUT44_N" pad="F12"/>
+<connect gate="G$5" pin="OUT44_P" pad="F13"/>
+<connect gate="G$5" pin="OUT45_N" pad="H13"/>
+<connect gate="G$5" pin="OUT45_P" pad="H14"/>
+<connect gate="G$5" pin="OUT46_N" pad="E13"/>
+<connect gate="G$5" pin="OUT46_P" pad="E14"/>
+<connect gate="G$5" pin="OUT47_N" pad="G14"/>
+<connect gate="G$5" pin="OUT47_P" pad="G15"/>
+<connect gate="G$5" pin="OUT48_N" pad="F14"/>
+<connect gate="G$5" pin="OUT48_P" pad="F15"/>
+<connect gate="G$5" pin="OUT49_N" pad="F16"/>
+<connect gate="G$5" pin="OUT49_P" pad="F17"/>
+<connect gate="G$5" pin="OUT50_N" pad="G16"/>
+<connect gate="G$5" pin="OUT50_P" pad="G17"/>
+<connect gate="G$5" pin="OUT51_N" pad="E17"/>
+<connect gate="G$5" pin="OUT51_P" pad="E18"/>
+<connect gate="G$5" pin="OUT52_N" pad="H17"/>
+<connect gate="G$5" pin="OUT52_P" pad="H18"/>
+<connect gate="G$5" pin="OUT53_N" pad="F18"/>
+<connect gate="G$5" pin="OUT53_P" pad="F19"/>
+<connect gate="G$5" pin="OUT54_N" pad="G18"/>
+<connect gate="G$5" pin="OUT54_P" pad="G19"/>
+<connect gate="G$5" pin="OUT55_N" pad="E19"/>
+<connect gate="G$5" pin="OUT55_P" pad="E20"/>
+<connect gate="G$5" pin="OUT56_N" pad="H19"/>
+<connect gate="G$5" pin="OUT56_P" pad="H20"/>
+<connect gate="G$5" pin="OUT57_N" pad="F20"/>
+<connect gate="G$5" pin="OUT57_P" pad="F21"/>
+<connect gate="G$5" pin="OUT58_N" pad="G20"/>
+<connect gate="G$5" pin="OUT58_P" pad="G21"/>
+<connect gate="G$5" pin="OUT59_N" pad="E21"/>
+<connect gate="G$5" pin="OUT59_P" pad="E22"/>
+<connect gate="G$5" pin="OUT60_N" pad="F22"/>
+<connect gate="G$5" pin="OUT60_P" pad="F23"/>
+<connect gate="G$5" pin="OUT61_N" pad="G22"/>
+<connect gate="G$5" pin="OUT61_P" pad="G23"/>
+<connect gate="G$5" pin="OUT62_N" pad="E23"/>
+<connect gate="G$5" pin="OUT62_P" pad="E24"/>
+<connect gate="G$5" pin="OUT63_N" pad="H23"/>
+<connect gate="G$5" pin="OUT63_P" pad="H24"/>
+<connect gate="G$5" pin="OUT64_N" pad="G24"/>
+<connect gate="G$5" pin="OUT64_P" pad="G25"/>
+<connect gate="G$6" pin="NC@C3" pad="C3"/>
+<connect gate="G$6" pin="NC@F24" pad="F24"/>
+<connect gate="G$6" pin="NC@F25" pad="F25"/>
+<connect gate="G$6" pin="NC@H2" pad="H2"/>
+<connect gate="G$7" pin="GND@A21" pad="A21"/>
+<connect gate="G$7" pin="GND@A25" pad="A25"/>
+<connect gate="G$7" pin="GND@A28" pad="A28"/>
+<connect gate="G$7" pin="GND@A29" pad="A29"/>
+<connect gate="G$7" pin="GND@A9" pad="A9"/>
+<connect gate="G$7" pin="GND@B22" pad="B22"/>
+<connect gate="G$7" pin="GND@B26" pad="B26"/>
+<connect gate="G$7" pin="GND@B27" pad="B27"/>
+<connect gate="G$7" pin="GND@B28" pad="B28"/>
+<connect gate="G$7" pin="GND@B5" pad="B5"/>
+<connect gate="G$7" pin="GND@C15" pad="C15"/>
+<connect gate="G$7" pin="GND@C16" pad="C16"/>
+<connect gate="G$7" pin="GND@C28" pad="C28"/>
+<connect gate="G$7" pin="GND@D2" pad="D2"/>
+<connect gate="G$7" pin="GND@D25" pad="D25"/>
+<connect gate="G$7" pin="GND@D27" pad="D27"/>
+<connect gate="G$7" pin="GND@D29" pad="D29"/>
+<connect gate="G$7" pin="GND@E15" pad="E15"/>
+<connect gate="G$7" pin="GND@E16" pad="E16"/>
+<connect gate="G$7" pin="GND@E25" pad="E25"/>
+<connect gate="G$7" pin="GND@E27" pad="E27"/>
+<connect gate="G$7" pin="GND@E3" pad="E3"/>
+<connect gate="G$7" pin="GND@F27" pad="F27"/>
+<connect gate="G$7" pin="GND@G5" pad="G5"/>
+<connect gate="G$7" pin="GND@H1" pad="H1"/>
+<connect gate="G$7" pin="GND@H21" pad="H21"/>
+<connect gate="G$7" pin="GND@H25" pad="H25"/>
+<connect gate="G$7" pin="GND@H27" pad="H27"/>
+<connect gate="G$7" pin="GND@H6" pad="H6"/>
+<connect gate="G$7" pin="GND@H9" pad="H9"/>
+<connect gate="G$7" pin="VDD18@A10" pad="A10"/>
+<connect gate="G$7" pin="VDD18@A15" pad="A15"/>
+<connect gate="G$7" pin="VDD18@A16" pad="A16"/>
+<connect gate="G$7" pin="VDD18@A22" pad="A22"/>
+<connect gate="G$7" pin="VDD18@A26" pad="A26"/>
+<connect gate="G$7" pin="VDD18@A27" pad="A27"/>
+<connect gate="G$7" pin="VDD18@B4" pad="B4"/>
+<connect gate="G$7" pin="VDD18@H10" pad="H10"/>
+<connect gate="G$7" pin="VDD18@H15" pad="H15"/>
+<connect gate="G$7" pin="VDD18@H16" pad="H16"/>
+<connect gate="G$7" pin="VDD18@H22" pad="H22"/>
+<connect gate="G$7" pin="VDD18@H26" pad="H26"/>
+<connect gate="G$7" pin="VDD18@H5" pad="H5"/>
+<connect gate="G$7" pin="VDD18_PLL" pad="E1"/>
+<connect gate="G$7" pin="VDD33@C26" pad="C26"/>
+<connect gate="G$7" pin="VDD33@C27" pad="C27"/>
+<connect gate="G$7" pin="VDD33@D26" pad="D26"/>
+<connect gate="G$7" pin="VDD33@D3" pad="D3"/>
+<connect gate="G$7" pin="VDD33@E26" pad="E26"/>
+<connect gate="G$7" pin="VDD33@F26" pad="F26"/>
+<connect gate="G$7" pin="VDD33@F5" pad="F5"/>
+<connect gate="G$7" pin="VDD_PIX@A30" pad="A30"/>
+<connect gate="G$7" pin="VDD_PIX@D28" pad="D28"/>
+<connect gate="G$7" pin="VDD_PIX@D30" pad="D30"/>
+<connect gate="G$7" pin="VDD_PIX@G1" pad="G1"/>
+<connect gate="G$7" pin="VDD_PIX@H28" pad="H28"/>
+<connect gate="G$7" pin="VDD_RES@E2" pad="E2"/>
+<connect gate="G$7" pin="VDD_RES@G4" pad="G4"/>
+<connect gate="G$8" pin="DIO1" pad="F4"/>
+<connect gate="G$8" pin="DIO2" pad="E4"/>
+<connect gate="G$8" pin="DIO3" pad="H4"/>
+<connect gate="G$8" pin="DIO4" pad="G3"/>
+<connect gate="G$8" pin="TANA" pad="A2"/>
+<connect gate="G$8" pin="TDIG1" pad="G27"/>
+<connect gate="G$8" pin="TDIG2" pad="G26"/>
+<connect gate="G$8" pin="VTREF" pad="B2"/>
+<connect gate="G$8" pin="VTSIG" pad="C2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ANDON+LM" package="10-30-07-237-400T4+LM">
+<connects>
+<connect gate="G$1" pin="CLK_IN" pad="E30"/>
+<connect gate="G$1" pin="FRAME_REQ" pad="G30"/>
+<connect gate="G$1" pin="SPI_CLK" pad="H29"/>
+<connect gate="G$1" pin="SPI_EN" pad="F28"/>
+<connect gate="G$1" pin="SPI_IN" pad="E28"/>
+<connect gate="G$1" pin="SPI_OUT" pad="G28"/>
+<connect gate="G$1" pin="SYS_RES_N" pad="F30"/>
+<connect gate="G$1" pin="T_EXP1" pad="H30"/>
+<connect gate="G$1" pin="T_EXP2" pad="E29"/>
+<connect gate="G$2" pin="CMDN" pad="F1"/>
+<connect gate="G$2" pin="CMDP" pad="F2"/>
+<connect gate="G$2" pin="CMDP_COMP" pad="H3"/>
+<connect gate="G$2" pin="CMDP_COMP_INV" pad="F3"/>
+<connect gate="G$2" pin="CMD_COLAMP" pad="C6"/>
+<connect gate="G$2" pin="CMD_COL_LOAD" pad="B1"/>
+<connect gate="G$2" pin="CMD_COL_PC" pad="D1"/>
+<connect gate="G$2" pin="CMD_LVDS" pad="C1"/>
+<connect gate="G$2" pin="CMD_RAMP" pad="B29"/>
+<connect gate="G$2" pin="VBGAP" pad="C29"/>
+<connect gate="G$2" pin="VCLAMP" pad="D4"/>
+<connect gate="G$2" pin="VCLAMP_ADC" pad="G2"/>
+<connect gate="G$2" pin="VPCH_H" pad="C4"/>
+<connect gate="G$2" pin="VPCH_L" pad="A4"/>
+<connect gate="G$2" pin="VRAMP1" pad="G29"/>
+<connect gate="G$2" pin="VRAMP2" pad="F29"/>
+<connect gate="G$2" pin="VREF" pad="A3"/>
+<connect gate="G$2" pin="VREF_ADC" pad="B3"/>
+<connect gate="G$2" pin="VRES_L" pad="D5"/>
+<connect gate="G$2" pin="VTF_LOW0" pad="C5"/>
+<connect gate="G$2" pin="VTF_LOW1" pad="D6"/>
+<connect gate="G$2" pin="VTF_LOW2" pad="B30"/>
+<connect gate="G$2" pin="VTF_LOW3" pad="C30"/>
+<connect gate="G$3" pin="LVDS_CLK_N" pad="E5"/>
+<connect gate="G$3" pin="LVDS_CLK_P" pad="E6"/>
+<connect gate="G$3" pin="OUTCLK_N" pad="G6"/>
+<connect gate="G$3" pin="OUTCLK_P" pad="G7"/>
+<connect gate="G$3" pin="OUTCTR_N" pad="A5"/>
+<connect gate="G$3" pin="OUTCTR_P" pad="A6"/>
+<connect gate="G$4" pin="OUT10_N" pad="D11"/>
+<connect gate="G$4" pin="OUT10_P" pad="D12"/>
+<connect gate="G$4" pin="OUT11_N" pad="C11"/>
+<connect gate="G$4" pin="OUT11_P" pad="C12"/>
+<connect gate="G$4" pin="OUT12_N" pad="B12"/>
+<connect gate="G$4" pin="OUT12_P" pad="B13"/>
+<connect gate="G$4" pin="OUT13_N" pad="A13"/>
+<connect gate="G$4" pin="OUT13_P" pad="A14"/>
+<connect gate="G$4" pin="OUT14_N" pad="C13"/>
+<connect gate="G$4" pin="OUT14_P" pad="C14"/>
+<connect gate="G$4" pin="OUT15_N" pad="D13"/>
+<connect gate="G$4" pin="OUT15_P" pad="D14"/>
+<connect gate="G$4" pin="OUT16_N" pad="B14"/>
+<connect gate="G$4" pin="OUT16_P" pad="B15"/>
+<connect gate="G$4" pin="OUT17_N" pad="D15"/>
+<connect gate="G$4" pin="OUT17_P" pad="D16"/>
+<connect gate="G$4" pin="OUT18_N" pad="B16"/>
+<connect gate="G$4" pin="OUT18_P" pad="B17"/>
+<connect gate="G$4" pin="OUT19_N" pad="A17"/>
+<connect gate="G$4" pin="OUT19_P" pad="A18"/>
+<connect gate="G$4" pin="OUT1_N" pad="B6"/>
+<connect gate="G$4" pin="OUT1_P" pad="B7"/>
+<connect gate="G$4" pin="OUT20_N" pad="D17"/>
+<connect gate="G$4" pin="OUT20_P" pad="D18"/>
+<connect gate="G$4" pin="OUT21_N" pad="C17"/>
+<connect gate="G$4" pin="OUT21_P" pad="C18"/>
+<connect gate="G$4" pin="OUT22_N" pad="B18"/>
+<connect gate="G$4" pin="OUT22_P" pad="B19"/>
+<connect gate="G$4" pin="OUT23_N" pad="A19"/>
+<connect gate="G$4" pin="OUT23_P" pad="A20"/>
+<connect gate="G$4" pin="OUT24_N" pad="D19"/>
+<connect gate="G$4" pin="OUT24_P" pad="D20"/>
+<connect gate="G$4" pin="OUT25_N" pad="C19"/>
+<connect gate="G$4" pin="OUT25_P" pad="C20"/>
+<connect gate="G$4" pin="OUT26_N" pad="B20"/>
+<connect gate="G$4" pin="OUT26_P" pad="B21"/>
+<connect gate="G$4" pin="OUT27_N" pad="D21"/>
+<connect gate="G$4" pin="OUT27_P" pad="D22"/>
+<connect gate="G$4" pin="OUT28_N" pad="C21"/>
+<connect gate="G$4" pin="OUT28_P" pad="C22"/>
+<connect gate="G$4" pin="OUT29_N" pad="A23"/>
+<connect gate="G$4" pin="OUT29_P" pad="A24"/>
+<connect gate="G$4" pin="OUT2_N" pad="A7"/>
+<connect gate="G$4" pin="OUT2_P" pad="A8"/>
+<connect gate="G$4" pin="OUT30_N" pad="D23"/>
+<connect gate="G$4" pin="OUT30_P" pad="D24"/>
+<connect gate="G$4" pin="OUT31_N" pad="B24"/>
+<connect gate="G$4" pin="OUT31_P" pad="B25"/>
+<connect gate="G$4" pin="OUT32_N" pad="C24"/>
+<connect gate="G$4" pin="OUT32_P" pad="C25"/>
+<connect gate="G$4" pin="OUT3_N" pad="D7"/>
+<connect gate="G$4" pin="OUT3_P" pad="D8"/>
+<connect gate="G$4" pin="OUT4_N" pad="C7"/>
+<connect gate="G$4" pin="OUT4_P" pad="C8"/>
+<connect gate="G$4" pin="OUT5_N" pad="B8"/>
+<connect gate="G$4" pin="OUT5_P" pad="B9"/>
+<connect gate="G$4" pin="OUT6_N" pad="D9"/>
+<connect gate="G$4" pin="OUT6_P" pad="D10"/>
+<connect gate="G$4" pin="OUT7_N" pad="C9"/>
+<connect gate="G$4" pin="OUT7_P" pad="C10"/>
+<connect gate="G$4" pin="OUT8_N" pad="B10"/>
+<connect gate="G$4" pin="OUT8_P" pad="B11"/>
+<connect gate="G$4" pin="OUT9_N" pad="A11"/>
+<connect gate="G$4" pin="OUT9_P" pad="A12"/>
+<connect gate="G$5" pin="OUT33_N" pad="F6"/>
+<connect gate="G$5" pin="OUT33_P" pad="F7"/>
+<connect gate="G$5" pin="OUT34_N" pad="H7"/>
+<connect gate="G$5" pin="OUT34_P" pad="H8"/>
+<connect gate="G$5" pin="OUT35_N" pad="E7"/>
+<connect gate="G$5" pin="OUT35_P" pad="E8"/>
+<connect gate="G$5" pin="OUT36_N" pad="G8"/>
+<connect gate="G$5" pin="OUT36_P" pad="G9"/>
+<connect gate="G$5" pin="OUT37_N" pad="F8"/>
+<connect gate="G$5" pin="OUT37_P" pad="F9"/>
+<connect gate="G$5" pin="OUT38_N" pad="E9"/>
+<connect gate="G$5" pin="OUT38_P" pad="E10"/>
+<connect gate="G$5" pin="OUT39_N" pad="G10"/>
+<connect gate="G$5" pin="OUT39_P" pad="G11"/>
+<connect gate="G$5" pin="OUT40_N" pad="F10"/>
+<connect gate="G$5" pin="OUT40_P" pad="F11"/>
+<connect gate="G$5" pin="OUT41_N" pad="H11"/>
+<connect gate="G$5" pin="OUT41_P" pad="H12"/>
+<connect gate="G$5" pin="OUT42_N" pad="E11"/>
+<connect gate="G$5" pin="OUT42_P" pad="E12"/>
+<connect gate="G$5" pin="OUT43_N" pad="G12"/>
+<connect gate="G$5" pin="OUT43_P" pad="G13"/>
+<connect gate="G$5" pin="OUT44_N" pad="F12"/>
+<connect gate="G$5" pin="OUT44_P" pad="F13"/>
+<connect gate="G$5" pin="OUT45_N" pad="H13"/>
+<connect gate="G$5" pin="OUT45_P" pad="H14"/>
+<connect gate="G$5" pin="OUT46_N" pad="E13"/>
+<connect gate="G$5" pin="OUT46_P" pad="E14"/>
+<connect gate="G$5" pin="OUT47_N" pad="G14"/>
+<connect gate="G$5" pin="OUT47_P" pad="G15"/>
+<connect gate="G$5" pin="OUT48_N" pad="F14"/>
+<connect gate="G$5" pin="OUT48_P" pad="F15"/>
+<connect gate="G$5" pin="OUT49_N" pad="F16"/>
+<connect gate="G$5" pin="OUT49_P" pad="F17"/>
+<connect gate="G$5" pin="OUT50_N" pad="G16"/>
+<connect gate="G$5" pin="OUT50_P" pad="G17"/>
+<connect gate="G$5" pin="OUT51_N" pad="E17"/>
+<connect gate="G$5" pin="OUT51_P" pad="E18"/>
+<connect gate="G$5" pin="OUT52_N" pad="H17"/>
+<connect gate="G$5" pin="OUT52_P" pad="H18"/>
+<connect gate="G$5" pin="OUT53_N" pad="F18"/>
+<connect gate="G$5" pin="OUT53_P" pad="F19"/>
+<connect gate="G$5" pin="OUT54_N" pad="G18"/>
+<connect gate="G$5" pin="OUT54_P" pad="G19"/>
+<connect gate="G$5" pin="OUT55_N" pad="E19"/>
+<connect gate="G$5" pin="OUT55_P" pad="E20"/>
+<connect gate="G$5" pin="OUT56_N" pad="H19"/>
+<connect gate="G$5" pin="OUT56_P" pad="H20"/>
+<connect gate="G$5" pin="OUT57_N" pad="F20"/>
+<connect gate="G$5" pin="OUT57_P" pad="F21"/>
+<connect gate="G$5" pin="OUT58_N" pad="G20"/>
+<connect gate="G$5" pin="OUT58_P" pad="G21"/>
+<connect gate="G$5" pin="OUT59_N" pad="E21"/>
+<connect gate="G$5" pin="OUT59_P" pad="E22"/>
+<connect gate="G$5" pin="OUT60_N" pad="F22"/>
+<connect gate="G$5" pin="OUT60_P" pad="F23"/>
+<connect gate="G$5" pin="OUT61_N" pad="G22"/>
+<connect gate="G$5" pin="OUT61_P" pad="G23"/>
+<connect gate="G$5" pin="OUT62_N" pad="E23"/>
+<connect gate="G$5" pin="OUT62_P" pad="E24"/>
+<connect gate="G$5" pin="OUT63_N" pad="H23"/>
+<connect gate="G$5" pin="OUT63_P" pad="H24"/>
+<connect gate="G$5" pin="OUT64_N" pad="G24"/>
+<connect gate="G$5" pin="OUT64_P" pad="G25"/>
+<connect gate="G$6" pin="NC@C3" pad="C3"/>
+<connect gate="G$6" pin="NC@F24" pad="F24"/>
+<connect gate="G$6" pin="NC@F25" pad="F25"/>
+<connect gate="G$6" pin="NC@H2" pad="H2"/>
+<connect gate="G$7" pin="GND@A21" pad="A21"/>
+<connect gate="G$7" pin="GND@A25" pad="A25"/>
+<connect gate="G$7" pin="GND@A28" pad="A28"/>
+<connect gate="G$7" pin="GND@A29" pad="A29"/>
+<connect gate="G$7" pin="GND@A9" pad="A9"/>
+<connect gate="G$7" pin="GND@B22" pad="B22"/>
+<connect gate="G$7" pin="GND@B26" pad="B26"/>
+<connect gate="G$7" pin="GND@B27" pad="B27"/>
+<connect gate="G$7" pin="GND@B28" pad="B28"/>
+<connect gate="G$7" pin="GND@B5" pad="B5"/>
+<connect gate="G$7" pin="GND@C15" pad="C15"/>
+<connect gate="G$7" pin="GND@C16" pad="C16"/>
+<connect gate="G$7" pin="GND@C28" pad="C28"/>
+<connect gate="G$7" pin="GND@D2" pad="D2"/>
+<connect gate="G$7" pin="GND@D25" pad="D25"/>
+<connect gate="G$7" pin="GND@D27" pad="D27"/>
+<connect gate="G$7" pin="GND@D29" pad="D29"/>
+<connect gate="G$7" pin="GND@E15" pad="E15"/>
+<connect gate="G$7" pin="GND@E16" pad="E16"/>
+<connect gate="G$7" pin="GND@E25" pad="E25"/>
+<connect gate="G$7" pin="GND@E27" pad="E27"/>
+<connect gate="G$7" pin="GND@E3" pad="E3"/>
+<connect gate="G$7" pin="GND@F27" pad="F27"/>
+<connect gate="G$7" pin="GND@G5" pad="G5"/>
+<connect gate="G$7" pin="GND@H1" pad="H1"/>
+<connect gate="G$7" pin="GND@H21" pad="H21"/>
+<connect gate="G$7" pin="GND@H25" pad="H25"/>
+<connect gate="G$7" pin="GND@H27" pad="H27"/>
+<connect gate="G$7" pin="GND@H6" pad="H6"/>
+<connect gate="G$7" pin="GND@H9" pad="H9"/>
+<connect gate="G$7" pin="VDD18@A10" pad="A10"/>
+<connect gate="G$7" pin="VDD18@A15" pad="A15"/>
+<connect gate="G$7" pin="VDD18@A16" pad="A16"/>
+<connect gate="G$7" pin="VDD18@A22" pad="A22"/>
+<connect gate="G$7" pin="VDD18@A26" pad="A26"/>
+<connect gate="G$7" pin="VDD18@A27" pad="A27"/>
+<connect gate="G$7" pin="VDD18@B4" pad="B4"/>
+<connect gate="G$7" pin="VDD18@H10" pad="H10"/>
+<connect gate="G$7" pin="VDD18@H15" pad="H15"/>
+<connect gate="G$7" pin="VDD18@H16" pad="H16"/>
+<connect gate="G$7" pin="VDD18@H22" pad="H22"/>
+<connect gate="G$7" pin="VDD18@H26" pad="H26"/>
+<connect gate="G$7" pin="VDD18@H5" pad="H5"/>
+<connect gate="G$7" pin="VDD18_PLL" pad="E1"/>
+<connect gate="G$7" pin="VDD33@C26" pad="C26"/>
+<connect gate="G$7" pin="VDD33@C27" pad="C27"/>
+<connect gate="G$7" pin="VDD33@D26" pad="D26"/>
+<connect gate="G$7" pin="VDD33@D3" pad="D3"/>
+<connect gate="G$7" pin="VDD33@E26" pad="E26"/>
+<connect gate="G$7" pin="VDD33@F26" pad="F26"/>
+<connect gate="G$7" pin="VDD33@F5" pad="F5"/>
+<connect gate="G$7" pin="VDD_PIX@A30" pad="A30"/>
+<connect gate="G$7" pin="VDD_PIX@D28" pad="D28"/>
+<connect gate="G$7" pin="VDD_PIX@D30" pad="D30"/>
+<connect gate="G$7" pin="VDD_PIX@G1" pad="G1"/>
+<connect gate="G$7" pin="VDD_PIX@H28" pad="H28"/>
+<connect gate="G$7" pin="VDD_RES@E2" pad="E2"/>
+<connect gate="G$7" pin="VDD_RES@G4" pad="G4"/>
+<connect gate="G$8" pin="DIO1" pad="F4"/>
+<connect gate="G$8" pin="DIO2" pad="E4"/>
+<connect gate="G$8" pin="DIO3" pad="H4"/>
+<connect gate="G$8" pin="DIO4" pad="G3"/>
+<connect gate="G$8" pin="TANA" pad="A2"/>
+<connect gate="G$8" pin="TDIG1" pad="G27"/>
+<connect gate="G$8" pin="TDIG2" pad="G26"/>
+<connect gate="G$8" pin="VTREF" pad="B2"/>
+<connect gate="G$8" pin="VTSIG" pad="C2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
+</eagle>
