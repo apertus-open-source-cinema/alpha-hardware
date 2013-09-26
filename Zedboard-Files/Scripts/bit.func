@@ -1,0 +1,17 @@
+#!/bin/sh
+
+bit_msk() {
+    a=$1; b=${2:-$1}; val=0
+    for i in `seq $a $b`; do
+	val=$(( val | ( 1 << i) ))
+    done
+    echo $val
+}
+
+bit_map() {
+    v=$1; a=$2; b=$3; n=$4
+    msk=`bit_msk $a $b`
+    val=$(( (v & ~msk) | ((n << a) & msk) ))
+    echo $val
+}
+
