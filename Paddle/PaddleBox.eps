@@ -1,0 +1,673 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 0 0 420 530
+%%Title: PaddleBox.eps
+%%Creator: Georg Dobrozemsky
+%%CreationDate: Sun Mar 23 2014
+%%Copyright: 2014 Georg Dobrozemsky
+%%DocumentData: Clean7Bit
+%%LanguageLevel: 2
+%%Pages: 1
+%%EndComments
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+
+% This work is licensed under a Creative Commons 
+% Attribution 4.0 International License.
+
+
+% Show ALL: 0 0 420 520
+% Show Right: 145 0 290 155
+% Show Left: 0 0 145 155
+% SHow Mantle:  7 200 194 320
+% A5 0 0 420 595
+
+% /mm { 360 mul 127 div } def
+/cm { 72 mul 2.54 div } def
+/mm { 72 mul 25.4 div } def
+
+/box {
+  dup 0 exch rlineto
+  exch 0 rlineto
+  neg 0 exch rlineto
+  closepath
+} def 
+
+%% colors
+
+/grey { 0.9 0.9 0.9 setrgbcolor	0 setlinewidth } def
+
+/pen0 { 1 1 1 setrgbcolor	0 setlinewidth } def
+/pen1 { 0 0 0 setrgbcolor	0 setlinewidth } def
+/pen2 { 1 0 0 setrgbcolor	0 setlinewidth } def
+/pen3 { 0 1 0 setrgbcolor	0 setlinewidth } def
+/pen4 { 1 0.7 0 setrgbcolor	0 setlinewidth } def
+/pen5 { 0 0 1 setrgbcolor	0 setlinewidth } def
+/pen6 { 1 0 1 setrgbcolor	0 setlinewidth } def
+/pen7 { 0 1 1 setrgbcolor	0 setlinewidth } def
+
+%% CONSTANTS
+
+/pi 3.1415926 def
+
+/cutw 0.01 cm def
+
+/outerwidth 7 cm def
+/outerheight 7 cm def
+/sideheight 3 cm def
+
+/topthickness 3 mm def
+/bottomthickness 3 mm def
+/wallthickness 3 mm def
+
+/innerwidth outerwidth wallthickness 2 mul sub def
+/innerheight outerheight wallthickness 2 mul sub def
+/innerthickness sideheight topthickness sub bottomthickness sub def
+
+/outerradius 24 mm def
+/innerradius outerradius wallthickness sub def
+/radius outerradius innerradius add 2 div def
+
+/wallnotchheight 3 mm def
+
+/potiradius 6.8 mm 2 div def
+
+/bendywidth radius pi mul 2 div def
+
+/bridge 1.2 mm def
+/steps 15 def
+/gap bendywidth steps div 2 div def
+
+/sidelength outerwidth
+  outerheight add
+  outerradius 4 mul sub
+  radius pi mul add
+def
+
+
+/walllength 4.4 cm def
+/wallwidth 3 mm def
+/walloffset 2 cm def
+
+/wallhalflength walllength 2 div def
+/wnotch 1.5 mm def
+/ptvn1 5 mm def
+/ptvn2 8 mm def
+/ptvn3 11 mm def
+/ptv2 wallhalflength 10.2 mm sub def
+/ptv3 wallhalflength  8.7 mm sub def
+/ptv4 wallhalflength  6.5 mm sub def
+/ptv5 wallhalflength  5.5 mm sub def
+/ptv6 wallhalflength  2.5 mm sub def
+/ptv7 wallhalflength  1.5 mm sub def
+/ptv8 wallhalflength 0.7 mm add def
+/pth1 bottomthickness 2 div def
+/pth2 bottomthickness cutw sub def
+/pth3 bottomthickness 4 mm add def
+/pth4 sideheight topthickness sub 4 mm sub def
+/pth5 sideheight topthickness sub cutw add def
+/pth6 sideheight topthickness 2 div sub def
+/pth7 sideheight def
+/pthn1 0 def
+/pthn2 bottomthickness 2 div neg def
+/pthn3 sideheight def
+/pthn4 sideheight topthickness 2 div add def
+/clippolygonpoints
+[[0 pth2][ptvn1 pth2][ptvn1 0][ptvn2 0][ptvn2 pth2][ptv2 pth2][ptv2 pth4][ptv3 pth4][ptv3 pthn2][ptv4 pthn2]
+ [ptv4 wnotch add pthn1][ptv4 wnotch add pth2][ptv4 wnotch add pthn1]
+ [ptv4 pthn1][ptv4 pth4][ptv5 pth4]
+ [ptv5 pth2][ptv8 pth2][ptv8 pthn4][ptv7 pthn4]
+ [ptv7 wnotch sub pthn3][ptv7 wnotch sub pth5][ptv7 wnotch sub pthn3]
+ [ptv7 pthn3][ptv7 pth3][ptv6 pth3][ptv6 pth5]
+ [ptvn3 pth5][ptvn3 pth7][ptvn2 pth7][ptvn2 pth5][0 pth5]]
+def
+
+/cutww cutw 2 mul def
+/anglesave 0.5 mm def
+
+%% Formatters
+
+/widthnotchwidth outerwidth outerradius 2 mul sub 5 div def
+/heightnotchwidth outerheight outerradius 2 mul sub 5 div def
+
+%% Helper Functions
+
+/topwidthnotch {
+  newpath 
+    widthnotchwidth 2 div cutw add 0 moveto
+    0 wallthickness cutw sub rlineto
+    widthnotchwidth cutw 2 mul sub 0 rlineto
+    0 wallthickness cutw sub neg rlineto
+  stroke
+} def
+
+/topheightnotch {
+  newpath 
+    heightnotchwidth 2 div cutw add 0 moveto
+    0 wallthickness cutw sub rlineto
+    heightnotchwidth cutw 2 mul sub 0 rlineto
+    0 wallthickness cutw sub neg rlineto
+  stroke
+} def
+
+/roundnotch {
+  newpath
+    0 outerradius cutw add neg moveto
+    0 wallthickness rlineto
+    0 0 innerradius cutw add 270 288 arc
+    0 0 outerradius cutw add 288 306 arc
+    0 0 innerradius cutw add 306 324 arc
+    0 0 outerradius cutw add 324 342 arc
+    0 0 innerradius cutw add 342 360 arc
+    wallthickness 0 rlineto
+  stroke
+} def
+
+/topbottomhelperlayer {
+
+newpath 0 0 moveto outerwidth outerheight box stroke
+newpath wallthickness dup moveto innerwidth innerheight box stroke
+
+newpath outerradius dup outerradius 180 270 arc stroke
+newpath outerwidth outerradius sub outerradius outerradius 270 360 arc stroke
+newpath outerwidth outerradius sub outerheight outerradius sub outerradius 0 90 arc stroke
+newpath outerradius outerheight outerradius sub outerradius 90 180 arc stroke
+
+newpath outerradius dup innerradius 180 270 arc stroke
+newpath outerwidth outerradius sub outerradius innerradius 270 360 arc stroke
+newpath outerwidth outerradius sub outerheight outerradius sub innerradius 0 90 arc stroke
+newpath outerradius outerheight outerradius sub innerradius 90 180 arc stroke
+
+newpath outerradius dup radius 180 270 arc stroke
+newpath outerwidth outerradius sub outerradius radius 270 360 arc stroke
+newpath outerwidth outerradius sub outerheight outerradius sub radius 0 90 arc stroke
+newpath outerradius outerheight outerradius sub radius 90 180 arc stroke
+
+gsave
+outerradius 0 translate
+6 { newpath 0 0 moveto 0 wallthickness rlineto stroke widthnotchwidth 0 translate } repeat
+grestore
+gsave
+outerradius outerheight wallthickness sub translate
+6 { newpath 0 0 moveto 0 wallthickness rlineto stroke widthnotchwidth 0 translate } repeat
+grestore
+gsave
+0 outerradius translate
+6 { newpath 0 0 moveto wallthickness 0 rlineto stroke 0 heightnotchwidth translate } repeat
+grestore
+gsave
+outerwidth wallthickness sub outerradius translate
+6 { newpath 0 0 moveto wallthickness 0 rlineto stroke 0 heightnotchwidth translate } repeat
+grestore
+
+gsave
+outerwidth 2 div outerheight 2 div translate
+newpath walloffset wallwidth 2 div sub walllength 2 div neg moveto wallwidth walllength box stroke
+newpath walloffset wallwidth 2 div add neg walllength 2 div neg moveto wallwidth walllength box stroke
+grestore
+
+} def
+
+/topbottommainlayer {
+% Notches
+pen3
+gsave
+ outerwidth 2 div outerheight 2 div translate
+ gsave
+  0 outerheight -2 div translate topwidthnotch
+  widthnotchwidth -2 mul 0 translate topwidthnotch
+ grestore
+ 180 rotate
+ gsave
+  0 outerheight -2 div translate topwidthnotch
+  widthnotchwidth -2 mul 0 translate topwidthnotch
+ grestore
+ 90 rotate
+ gsave
+  0 outerwidth -2 div translate topheightnotch
+  heightnotchwidth -2 mul 0 translate topheightnotch
+ grestore
+ 180 rotate
+ gsave
+  0 outerwidth -2 div translate topheightnotch
+  heightnotchwidth -2 mul 0 translate topheightnotch
+ grestore
+grestore
+
+% Round Part with Notches
+pen4
+gsave
+  outerwidth outerradius sub outerradius translate
+  roundnotch
+grestore
+gsave
+  outerwidth outerradius sub outerheight outerradius sub translate
+  90 rotate
+  roundnotch
+grestore
+gsave
+  outerradius outerheight outerradius sub translate
+  180 rotate
+  roundnotch
+grestore
+gsave
+  outerradius dup translate
+  270 rotate
+  roundnotch
+grestore
+
+pen6
+gsave
+newpath
+  outerradius cutw sub cutw neg moveto
+  outerwidth outerradius 2 mul sub cutw 2 mul add 0 rlineto
+stroke
+newpath
+  outerradius cutw sub outerheight cutw add moveto
+  outerwidth outerradius 2 mul sub cutw 2 mul add 0 rlineto
+stroke
+newpath
+  cutw neg outerradius cutw sub moveto
+  0 outerheight outerradius 2 mul sub cutw 2 mul add rlineto
+stroke
+newpath
+  outerwidth cutw add outerradius cutw sub moveto
+  0 outerheight outerradius 2 mul sub cutw 2 mul add rlineto
+stroke
+grestore
+
+} def
+
+/topwallholes {
+    newpath walloffset wallwidth 2 div sub cutw add ptvn2 cutw add moveto 
+      wallwidth cutww sub ptvn3 ptvn2 sub cutww sub box stroke
+    newpath walloffset wallwidth 2 div sub cutw add ptv7 cutw add moveto 
+      wallwidth cutww sub ptv8 ptv7 sub wnotch add anglesave add box stroke
+} def
+
+/bottomwallholes {
+    newpath walloffset wallwidth 2 div sub cutw add ptvn1 cutw add moveto 
+      wallwidth cutww sub ptvn2 ptvn1 sub cutww sub box stroke
+    newpath walloffset wallwidth 2 div sub cutw add ptv4 moveto 
+      wallwidth cutww sub ptv4 ptv3 sub wnotch add anglesave add neg box stroke
+} def
+
+
+/wallynotch {
+
+gsave
+
+newpath 
+  heightnotchwidth 2 div cutw sub neg bottomthickness cutw sub moveto
+  heightnotchwidth cutw 2 mul sub 0 rlineto
+  0 bottomthickness neg rlineto 
+stroke
+
+newpath
+  heightnotchwidth 1.5 mul cutw add cutw neg moveto
+  0 bottomthickness rlineto
+  heightnotchwidth cutw 2 mul sub 0 rlineto
+  0 bottomthickness neg rlineto 
+stroke
+
+newpath
+  sidelength 2 div 0 moveto
+  widthnotchwidth -2.5 mul cutw add cutw neg rmoveto
+  0 bottomthickness rlineto
+  widthnotchwidth cutw 2 mul sub 0 rlineto
+  0 bottomthickness neg rlineto 
+  widthnotchwidth cutw 2 mul add 0 rmoveto
+  0 bottomthickness rlineto
+  widthnotchwidth cutw 2 mul sub 0 rlineto
+ 
+stroke
+
+grestore
+
+} def
+
+/hintline { 0 rmoveto 0 sideheight rlineto 0 sideheight neg rmoveto } def
+
+/bendynotch {
+  newpath 
+  bendywidth 5 div cutw add cutw neg moveto
+  0 bottomthickness rlineto
+  bendywidth 5 div cutw 2 mul sub 0 rlineto
+  0 bottomthickness neg rlineto
+  bendywidth 5 div cutw 2 mul add 0 rmoveto
+  0 bottomthickness rlineto
+  bendywidth 5 div cutw 2 mul sub 0 rlineto
+  0 bottomthickness neg rlineto
+  stroke
+} def
+
+/notchstepunit innerthickness 24 div def
+/notchconnect {
+  0 notchstepunit 5 mul rlineto
+  notchstepunit dup 2 mul exch neg rlineto
+  0 notchstepunit 6 mul rlineto
+  notchstepunit neg dup 2 mul exch rlineto
+  0 notchstepunit 6 mul rlineto
+  notchstepunit dup 2 mul exch neg rlineto
+  0 notchstepunit 6 mul rlineto
+  notchstepunit neg dup 2 mul exch rlineto
+  0 notchstepunit 5 mul rlineto
+} def
+
+/tbcut {
+  newpath
+  0 0 moveto
+  0 sideheight bridge sub 2 div rlineto
+  0 bridge rmoveto
+  0 sideheight bridge sub 2 div rlineto
+  stroke
+} def
+
+/ccut {
+  newpath
+  0 0 moveto
+  0 bottomthickness 0.2 mm add lineto
+  0 bridge rmoveto
+  0 sideheight topthickness sub bridge sub 0.2 mm sub lineto
+  0 bridge rmoveto
+  0 sideheight lineto
+  stroke
+} def
+
+/plotgrid {
+  gsave
+    pen4
+    steps 1 add { tbcut gap 2 mul 0 translate } repeat
+  grestore
+  gsave
+  gap 0 translate
+    pen5
+    steps { ccut gap 2 mul 0 translate } repeat
+  grestore
+} def
+
+/sidehelperlayer {
+gsave
+
+% outer box
+newpath 0 0 moveto 
+wallnotchheight 2 mul sidelength add
+sideheight box stroke
+
+% vertical hlines
+newpath 0 0 moveto
+wallnotchheight hintline
+outerheight outerradius 2 mul sub 2 div hintline
+bendywidth hintline
+outerwidth outerradius 2 mul sub hintline
+bendywidth hintline
+outerheight outerradius 2 mul sub 2 div hintline
+stroke
+
+% horizontal lines for top and bottom width designation
+newpath 0 bottomthickness moveto sidelength wallnotchheight 2 mul add 0 rlineto stroke
+newpath 0 sideheight topthickness sub moveto sidelength wallnotchheight 2 mul add 0 rlineto stroke
+
+grestore
+
+% curve notch helper lines
+gsave
+wallnotchheight outerheight outerradius 2 mul sub 2 div add 0 translate
+5 { newpath 0 0 moveto 0 bottomthickness lineto 0 sideheight moveto 0 bottomthickness neg rlineto stroke bendywidth 5 div 0 translate } repeat
+outerwidth outerradius 2 mul sub 0 translate
+5 { newpath 0 0 moveto 0 bottomthickness lineto 0 sideheight moveto 0 bottomthickness neg rlineto stroke bendywidth 5 div 0 translate } repeat
+grestore
+
+} def
+
+/sideelement {
+% Top and Bottom Notches
+pen3
+
+gsave
+  wallnotchheight 0 translate
+  2 {
+    gsave
+      wallynotch
+      gsave
+        outerheight outerradius 2 mul sub 2 div 0 translate
+        bendynotch
+      grestore
+      0 sideheight translate
+      1 -1 scale
+      wallynotch
+      gsave
+        outerheight outerradius 2 mul sub 2 div 0 translate
+        bendynotch
+      grestore
+    grestore
+    sidelength sideheight translate
+    180 rotate
+  } repeat
+grestore
+
+% Wall Connection Notches
+pen4
+% connector (no cutw offset as this line will be glued)
+gsave
+newpath
+  wallnotchheight notchstepunit sub bottomthickness moveto
+  notchconnect
+stroke
+newpath
+  sidelength wallnotchheight add notchstepunit sub bottomthickness moveto
+  notchconnect
+stroke
+grestore
+
+%% --------------------------------------------------------
+%% Bendy
+
+gsave
+% left bendy grid
+  wallnotchheight outerheight outerradius 2 mul sub 2 div add 0 translate
+  plotgrid
+% right bendy grid
+  bendywidth outerwidth outerradius 2 mul sub add 0 translate
+  plotgrid
+grestore
+
+% upper and lower cutline (cut at the end to prevent bending)
+pen6
+gsave
+  newpath
+  wallnotchheight cutw sub cutw neg moveto
+  sidelength cutw 2 mul add 0 rlineto
+  stroke
+  newpath
+  wallnotchheight cutw sub sideheight cutw add moveto
+  sidelength cutw 2 mul add 0 rlineto
+  stroke
+grestore
+
+} def
+
+
+%% Setup Page
+
+%% ========================================================
+%% Top
+
+save
+7 10 translate
+
+%% --------------------------------------------------------
+%% BEGIN HELPER LAYER
+
+%grey
+%
+%topbottomhelperlayer
+%
+%% Poti outline
+%gsave
+%outerwidth 2 div outerheight 2 div translate
+%newpath 0 0 8.6 mm 0 360 arc stroke
+%newpath -7.5 mm 0 moveto 15 mm 12 mm box stroke
+%grestore
+
+%% END HELPER LAYER
+%% --------------------------------------------------------
+
+% Poti hole
+pen2
+newpath outerwidth 2 div outerheight 2 div potiradius 0 360 arc stroke
+
+% Poti notch
+gsave
+pen2
+/potinotchinner 7.1 mm def
+/potinotchouter 8.5 mm def
+/potinotchheight 3.2 mm def
+
+outerwidth 2 div outerheight 2 div translate
+
+newpath
+potinotchinner potinotchheight 2 div neg moveto
+potinotchouter potinotchinner sub potinotchheight box
+stroke
+
+grestore
+
+% wall holes
+gsave
+  outerwidth 2 div outerheight 2 div translate
+  % holes to fix geometry
+  gsave
+    topwallholes
+    1 -1 scale
+    topwallholes
+    -1 -1 scale
+    topwallholes
+    1 -1 scale
+    topwallholes
+  grestore
+grestore
+
+topbottommainlayer
+
+restore
+%% ========================================================
+%% Bottom
+
+save
+outerwidth 5.5 mm add 10 translate
+
+%% --------------------------------------------------------
+%% BEGIN HELPER LAYER
+
+%grey
+%topbottomhelperlayer
+
+%% END HELPER LAYER
+%% --------------------------------------------------------
+
+% wall holes
+pen2
+gsave
+  outerwidth 2 div outerheight 2 div translate
+  % holes to fix geometry
+  gsave
+    bottomwallholes
+    1 -1 scale
+    bottomwallholes
+    -1 -1 scale
+    bottomwallholes
+    1 -1 scale
+    bottomwallholes
+  grestore
+grestore
+
+topbottommainlayer
+
+restore
+%% ========================================================
+%% Side
+
+save
+10 outerheight 25 add translate
+
+%% --------------------------------------------------------
+% wire hole
+/wirediameter 3.8 mm def
+/wireradius wirediameter 2 div def
+gsave
+  pen2
+  sidelength 2 div wallnotchheight add bottomthickness translate
+  newpath
+    widthnotchwidth 2 div cutw sub cutw neg moveto
+    0 wireradius wireradius 330 210 arc
+    widthnotchwidth 2 div cutw sub neg cutw neg lineto
+  stroke
+grestore
+
+%% --------------------------------------------------------
+
+2 {
+%  grey
+%  sidehelperlayer
+  pen1
+  sideelement
+  0 sideheight 7 mm add translate
+} repeat
+
+restore
+
+%% ========================================================
+%% Coupler
+
+save
+
+10 outerheight sideheight 7 mm add 2 mul add 7 mm add translate
+
+/makepolygon { 3 dict 
+  begin 
+    /a exch def 
+    /n a length def 
+    n 1 gt 
+    { a 0 get 0 get 
+      a 0 get 1 get 
+      moveto
+      1 1 n 1 sub {
+        /i exch def 
+        a i get 0 get 
+        a i get 1 get 
+        lineto }
+      for }
+    if
+  end
+} def
+
+2 {
+%grey
+%newpath 0 0 moveto walllength sideheight box stroke
+%newpath 0 bottomthickness moveto walllength 0 rlineto stroke
+%newpath 0 sideheight topthickness sub moveto walllength 0 rlineto stroke
+
+pen1
+
+gsave
+  walllength 2 div 0 translate
+  newpath
+    clippolygonpoints
+    makepolygon 
+  stroke
+  -1 1 scale
+  newpath
+    clippolygonpoints
+    makepolygon 
+  stroke
+grestore
+
+walllength 10 add 0 translate
+} repeat
+
+restore
+
+showpage
+%%Trailer
+%%EOF
