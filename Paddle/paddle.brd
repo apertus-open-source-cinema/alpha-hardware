@@ -57,8 +57,12 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -67,6 +71,10 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="LensMount" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Sensor" color="14" fill="8" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -74,8 +82,8 @@
 <wire x1="24.13" y1="0" x2="24.13" y2="12.7" width="0" layer="20"/>
 <wire x1="24.13" y1="12.7" x2="0" y2="12.7" width="0" layer="20"/>
 <wire x1="0" y1="12.7" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="-1.27" x2="24.13" y2="-1.27" x3="12.065" y3="-5.08" textsize="0.8128" layer="47"/>
-<dimension x1="27.94" y1="0" x2="27.94" y2="12.7" x3="33.02" y3="6.35" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="-1.27" x2="24.13" y2="-1.27" x3="12.065" y3="-5.08" textsize="1.27" layer="47" visible="yes"/>
+<dimension x1="27.94" y1="0" x2="27.94" y2="12.7" x3="33.02" y3="6.35" textsize="1.27" layer="47" visible="yes"/>
 </plain>
 <libraries>
 <library name="lmv321">
